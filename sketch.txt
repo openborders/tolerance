@@ -1,0 +1,14 @@
+Idee 1
+1. User visits page
+2. provides his/her nationality;
+3. answers 10 questions to fundamental issues (i.e. related to survival instinct; e.g. your house was bombed by air forces of a neighboring country; you survived your small daughter was sleeping in the bedroom);
+4. is presented with the answers of a person of another nationality and is asked to guess the nationality
+
+Expected Outcome:
+- People will not be able to distinguish the answers from other countries from their own people.
+- People realize, that other nationalities are really not that different
+
+
+
+Idee 2
+- Mit einem Ablauf konfrontrieren - Es passiert das: Wuerdest du fluechten? Wenn nein, es passiert das: Wuerdest du fluechten? ...
