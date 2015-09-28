@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 
 gem 'twitter-bootstrap-rails'
 
+gem 'wicked'
+gem 'highcharts-rails'

@@ -1,0 +1,46 @@
+<% if @other_survey %>
+		<% content_for :title do %>
+		Survey
+		<% end %>
+
+		<% content_for :subtitle do %>
+		One Last Task
+		<% end %>
+		<div class="jumbotron">
+		  <h2>What do you think is the nationality of the person that gave the following answers?</h2>
+		</div>
+
+
+		<% for answered_question in @other_survey.answered_questions %>
+		  <% q = answered_question.question %>
+		  <% a = answered_question.answer %>
+		  <% sit = q.situation %>
+		  <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h3 class="panel-title"><%= sit.title %></h3>
+		    </div>
+		    <div class="panel-body">
+		    	Q: <%= q.text %><br>
+		    	A: <%= a.text %>
+		    </div>
+		  </div>
+		<% end %>
+
+		<%= form_tag(next_wizard_path, method: :put) do %>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">What nationality do you think the person has?</h3>
+			  </div>
+			  <div class="panel-body">
+			  	<%= select(:user, :nationality_id, options_from_collection_for_select(Nationality.all, :id, :name)) %>
+			  </div>
+			</div>
+
+		  <%= submit_tag("Finish") %>
+		<% end %>
+
+<% else %>
+		<div class="jumbotron">
+		  Thank you for taking the survey!
+		</div>
+<% end %>

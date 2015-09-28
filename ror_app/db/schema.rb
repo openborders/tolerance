@@ -11,13 +11,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150927215058) do
+ActiveRecord::Schema.define(version: 20150928124755) do
+
+  create_table "answered_questions", force: true do |t|
+    t.integer  "question_id"
+    t.integer  "answer_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_answers_survey_id"
+  end
+
+  create_table "answered_questions_user_answers_surveys", id: false, force: true do |t|
+    t.integer "user_answers_survey_id", null: false
+    t.integer "answered_question_id",   null: false
+  end
 
   create_table "answers", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "text"
     t.integer  "question_id"
+  end
+
+  create_table "nationalities", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "name"
   end
 
   create_table "questions", force: true do |t|
@@ -34,12 +53,33 @@ ActiveRecord::Schema.define(version: 20150927215058) do
     t.string   "title"
   end
 
-  create_table "surveys", force: true do |t|
+  create_table "survey_has_situations", force: true do |t|
+    t.integer  "survey_id"
+    t.integer  "situation_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "user_gave_answers", force: true do |t|
+  create_table "surveys", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.string   "text"
+  end
+
+  create_table "user_answers_surveys", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "survey_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "session_id"
+    t.boolean  "completed"
+  end
+
+  create_table "user_guesses_nationalities", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "user_answers_survey_id"
+    t.integer  "nationality_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -47,6 +87,7 @@ ActiveRecord::Schema.define(version: 20150927215058) do
   create_table "users", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "nationality_id"
   end
 
 end

@@ -60,6 +60,9 @@
       <div class="row">
         <div class="col-lg-9">
           <%= bootstrap_flash %>
+          <div class="page-header">
+            <h1><%= yield(:title) %> <small><%= yield(:subtitle) %></small></h1>
+          </div>
           <%= yield %>
         </div>
         <div class="col-lg-3">

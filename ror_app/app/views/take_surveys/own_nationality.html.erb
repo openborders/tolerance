@@ -1,0 +1,20 @@
+<% content_for :title do %>
+Survey
+<% end %>
+
+<% content_for :subtitle do %>
+<%= @survey.title %>
+<% end %>
+
+<%= form_tag(next_wizard_path, method: :put) do %>
+	<div class="panel panel-default">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">What is your nationality?</h3>
+	  </div>
+	  <div class="panel-body">
+	  	<%= select(:user, :nationality_id, options_from_collection_for_select(Nationality.all, :id, :name)) %>
+	  </div>
+	</div>
+
+  <%= submit_tag("Next step") %>
+<% end %>
