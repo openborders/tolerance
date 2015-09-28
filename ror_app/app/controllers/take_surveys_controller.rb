@@ -58,7 +58,8 @@ class TakeSurveysController < ApplicationController
 			# continent-wise
 			@correctly_guessed_continent = UserGuessesNationality.joins('INNER JOIN user_answers_surveys ON (user_guesses_nationalities.user_answers_survey_id=user_answers_surveys.id)').joins('INNER JOIN users ON (user_answers_surveys.user_id = users.id)').joins('INNER JOIN nationalities AS nat1 ON (users.nationality_id=nat1.id)').joins('INNER JOIN nationalities AS nat2 ON (user_guesses_nationalities.nationality_id=nat2.id)').where('nat1.continent_id = nat2.continent_id').count()/UserGuessesNationality.all().count().to_f*100.0
 			@incorrectly_guessed_continent = 100.0 - @correctly_guessed_continent
-
+			@you_guessed_correctly_continent = Nationality.find(@your_guess).continent_id == Nationality.find(@true_nationality).continent_id
+			
 
 			return render_wizard
 	    end

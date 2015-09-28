@@ -97,4 +97,14 @@ Your guess (<%= Nationality.find(@your_guess).name %>) was incorrect! The person
 
 <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
 
+
+<% if @you_guessed_correctly_continent %>
+<div class="alert alert-success" role="alert">
+You guessed a nationality on the correct continent (<%= Nationality.find(@your_guess).name %> and <b><%= Nationality.find(@true_nationality).name %></b> both belong to <%= Nationality.find(@your_guess).continent.name %>)!
+</div>
+<% else %>
+<div class="alert alert-danger" role="alert">
+The continent of your guess (<%= Nationality.find(@your_guess).name %> belongs to <%= Nationality.find(@your_guess).continent.name %>) was incorrect! The person's true nationality was <%= Nationality.find(@true_nationality).name %>, which belongs to <b><%= Nationality.find(@true_nationality).continent.name %></b>.
+</div>
+<% end %>
 <div id="container_continent" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
