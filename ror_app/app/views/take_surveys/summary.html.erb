@@ -70,25 +70,11 @@ $(function () {
             name: "Brands",
             colorByPoint: true,
             data: [{
-                name: "Microsoft Internet Explorer",
-                y: 56.33
+                name: "Correctly",
+                y: <%= @correctly_guessed_continent %>
             }, {
-                name: "Chrome",
-                y: 24.03,
-                sliced: true,
-                selected: true
-            }, {
-                name: "Firefox",
-                y: 10.38
-            }, {
-                name: "Safari",
-                y: 4.77
-            }, {
-                name: "Opera",
-                y: 0.91
-            }, {
-                name: "Proprietary or Undetectable",
-                y: 0.2
+                name: "Incorrectly",
+                y: <%= @incorrectly_guessed_continent %>
             }]
         }]
     });
@@ -111,6 +97,4 @@ Your guess (<%= Nationality.find(@your_guess).name %>) was incorrect! The person
 
 <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
 
-<!--
 <div id="container_continent" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
--->
