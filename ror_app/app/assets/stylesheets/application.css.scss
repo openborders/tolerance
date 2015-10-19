@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+@font-face {
+    font-family: 'CherylHand';
+    src: url(font-path('cheryl-hand.ttf'))  format('truetype');
+}
+
+@font-face {
+    font-family: 'album-avantquelombre';
+    src: url(font-path('album-avantquelombre.ttf'))  format('truetype');
+}
+
+@font-face {
+    font-family: 'angelina';
+    src: url(font-path('angelina.ttf'))  format('truetype');
+}
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+body {
+	font-family: CherylHand;
+	font-size: 400%;
+}

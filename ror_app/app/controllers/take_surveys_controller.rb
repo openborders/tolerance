@@ -19,6 +19,7 @@ class TakeSurveysController < ApplicationController
 		# check for values of last question
 		if session.has_key?(:user_answers_survey)
 			@user_answers_survey = UserAnswersSurvey.find(session[:user_answers_survey])
+
 	  		@question  = Question.find(session[:question])
 	  		@situation  = Situation.find(session[:situation])
 
@@ -34,7 +35,56 @@ class TakeSurveysController < ApplicationController
 	  		@user_answers_survey = UserAnswersSurvey.create(:user_id => @user.id, :survey_id => @survey.id)
 	  		session[:user_answers_survey] = @user_answers_survey.id
 	  		session[:asked_questions] = []
+	  	when :q2
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
+	  	when :q3
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
+	  	when :q4
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
+	  	when :q5
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
+	  	when :q6
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
+	  	when :q7
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
+	  	when :q8
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
+	  	when :q9
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
+	  	when :q10
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
 	  	when :guess_nationality
+			# if already completed, we skip to the summary
+			if @user_answers_survey.completed
+				jump_to(:own_nationality)
+			end
 	  		@user_answers_survey.update_attribute(:completed, true)
 	  		# take all answered questioneers of other people
 	  		offset = rand(UserAnswersSurvey.where(:completed => true).where.not(:id => @user_answers_survey.id).count)
@@ -45,10 +95,14 @@ class TakeSurveysController < ApplicationController
 			# we do not need another situation / question
 			return render_wizard
 		when :summary
-			UserGuessesNationality.create(
-				user_id: UserAnswersSurvey.find(session[:other_survey]).user.id,
-				user_answers_survey_id: session[:other_survey],
-				nationality_id: params[:user][:nationality_id])
+			# we only submit the guess if the user did not guess before
+			@bla = UserGuessesNationality.where(:user_id == UserAnswersSurvey.find(session[:other_survey]).user.id, :user_answers_survey_id == session[:other_survey], :nationality_id == params[:user][:nationality_id])
+			if @bla.count() == 0
+				UserGuessesNationality.create(
+					user_id: UserAnswersSurvey.find(session[:other_survey]).user.id,
+					user_answers_survey_id: session[:other_survey],
+					nationality_id: params[:user][:nationality_id])
+			end
 			@your_guess = params[:user][:nationality_id].to_i
 			@true_nationality = UserAnswersSurvey.find(session[:other_survey]).user.nationality_id
 			@you_guessed_correctly = @your_guess == @true_nationality
