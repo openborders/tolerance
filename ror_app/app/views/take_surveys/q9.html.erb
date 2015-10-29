@@ -21,7 +21,7 @@ Survey
       <% i = 0 %>
       <% for a in q.answers %>
         <%= radio_button_tag(:answer, a.id, i == 0) %>
-        <%= label_tag(a.id, a.text) %><br>
+        <%= label_tag('answer_' + a.id.to_s, a.text) %><br>
         <% i = i + 1 %>
     <% end %>
     </div>

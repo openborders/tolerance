@@ -1,3 +1,4 @@
 class Answer < ActiveRecord::Base
-	belongs_to :question
+	has_many :question_has_answers
+	has_many :questions, through: :question_has_answers
 end
