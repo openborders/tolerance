@@ -1,0 +1,2 @@
+class UniversalAnswer < Answer
+end
