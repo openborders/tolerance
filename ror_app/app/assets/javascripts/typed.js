@@ -159,7 +159,6 @@
 
             // contain typing function in a timeout humanize'd delay
             self.timeout = setTimeout(function() {
-		var typedNewLine = false;
                 // check for an escape character before a pause value
                 // format: \^\d+ .. eg: ^1000 .. should be able to print the ^ too using ^^
                 // single ^ are removed from string
@@ -194,11 +193,6 @@
                         }
                         curStrPos++;
                         tag += endTag;
-			
-			if (tag.startsWith('<br')) {
-				typedNewLine  = true;
-				//self.options.preNewLine(self.arrayPos);
-			}
                     }
                 }
 
@@ -253,10 +247,6 @@
                     // end of character pause
 		    
 		    self.options.onTyped(self.arrayPos);
-		    
-		    if (typedNewLine) {
-			//self.options.onNewLine(self.arrayPos);
-		    }
                 }, charPause);
 
                 // humanized value for typing
@@ -440,7 +430,9 @@
         //callback for every typed string
         onStringTyped: function() {},
         // callback for reset
-        resetCallback: function() {}
+        resetCallback: function() {},
+	// callback if any character is typed
+	onTyped: function() {}
     };
 
 

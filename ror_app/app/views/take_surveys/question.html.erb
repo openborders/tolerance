@@ -7,8 +7,8 @@ Survey
 <% end %>
 
 <% sit = @situation %>
-<div class="jumbotron">
-  <h2><%= sit.title %></h2>
+<div id="situation" class="jumbotron">
+  <p><%= sit.title %></p>
 </div>
 
 <%= form_tag(next_wizard_path, method: :put) do %>
@@ -19,11 +19,11 @@ Survey
     </div>
     <div class="panel-body">
       <% i = 0 %>
-      <% for a in q.answers %>
-        <%= radio_button_tag(:answer, a.id, i == 0) %>
+    	<% for a in q.answers %>
+  	  	<%= radio_button_tag(:answer, a.id, i == 0) %>
         <%= label_tag('answer_' + a.id.to_s, a.text) %><br>
         <% i = i + 1 %>
-    <% end %>
+  	<% end %>
     </div>
   </div>
 

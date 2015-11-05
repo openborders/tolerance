@@ -6,21 +6,23 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Situation.create([
-	{id: 0, title: 'Your president decides to bomb innocent civilians, in order to maintain power.'},
+	{id: 0, title: 'The president of your country shoots civilians who they think are a threat to their power.'},
 	{id: 1, title: 'A neighboring country decides to invade part of your country to improve their strategic position and/or access to fossile ressources.'},
-	{id: 2, title: 'A member of your family was captured forcefully by the police and taken into custody for a crime he/she didn''t commit.'},
+	{id: 2, title: 'A member of your family was captured forcefully by the police and taken into custody for a crime he/she didn\'t commit.'},
 	{id: 3, title: 'A member of your family was captured forcefully by forces of the government and taken into custody for critical speech about them or the government.'},
-	{id: 4, title: 'A new government rule prohibits drinking alcohol or smoking and is controlled strictly by armed forces. If they see you drinking or smoking, they will send you to jail. Unfortunately, you are (somewhat) addicted to alcohol and/or tabaco.'},
-	{id: 5, title: 'The situation in your country is getting worse every day and your country is surrounded by water on most side and a country with a worse situation than in your own. You decide to flee to a neighboring country.'},
-	{id: 6, title: 'A bomb detonated next to your neighbourhood. Luckily nobody in your family was harmed, but a friend of you living there died.'},
-	{id: 7, title: 'Your wife/husband/partner has a different religion than yours which is now forbidden by the government. Practitioners of her religion are being hanged publicly and their whole family is under general suspicion to collaborate.'},
-	{id: 8, title: 'You work as a police officer in your country and are forced by the government/by a dictator to question people through torture (waterboarding, sleep deprivation, abuse, ...) and you know exactly that these people are innocent. If you don''t follow the orders, you will be tortured instead.'},
+	{id: 4, title: 'A new government rule prohibits drinking alcohol or smoking and is controlled strictly by armed forces. If civilians are caught drinking or smoking on the streets, they will be sent to jail. Unfortunately, you are (somewhat) addicted to alcohol and/or tabaco.'},
+	{id: 5, title: 'The political and economical situation in your country is getting more instable every day. Civilians are put into jail without trial. Protests on the streets are struck down bloodily. The situation is likely to escalate soon. Your country has one neighbor country and is surrounded by water on the remaining borders. The situation in the neighboring country is even worse. You decide to leave your country.'},
+	{id: 6, title: 'A bomb detonated in your neighborhood, three houses away. It was the fifth detonation close by within 2 months. A rebel group has claimed responsibility for the recent attack. One of your friends died, as he lived in a house close to the detonation.'},
+	{id: 7, title: 'Your partner has a different religion than you. It has just been forbidden by the government. Practitioners of that  religion are being hanged publicly and their whole family is under general suspicion of collaboration.'},
+	{id: 8, title: 'You work as a police officer in your country and are forced by the government to question people through torture (waterboarding, sleep deprivation, abuse, ...) and you know that these people are innocent. If you don\'t follow the orders, you will be tortured instead.'},
 	{id: 9, title: 'You, your wife and your three kids have to flee the country because you are wanted by your government for having sold alcohol. You have enough money to pay for two seets in a boat.'},
-	{id: 10, title: 'You hide some friends of your family which believe in a religion prohibited by your government in your basement. Your neighbour knows about your situation. After a few weeks, you are being questioned by the police and they threaten you with years in jail, if you should hide some of these haunted/pursued people.'},
-	{id: 11, title: 'You are a scientist at your local university. The new government tries to build more atom powered weapons. You''re spezialized? in this area and have to help them to create these weapons. Otherwise, you will being punished.'},
-	{id: 12, title: 'Your son was imprisoned by forces of the government and taken into custody for critical speech about the government.'},
-	{id: 13, title: 'You immigrated 20 years ago together with your wife and kids. The government has changed recently and is enacting drastic laws. According to the newest law, immigrants are not allowed to stay in the country but have to return to their home country. Your best friend is father to three small children. He lost his property and job. In order to earn money to buy food, he had to join the ruthless army of the government to enforce their laws.'},
-	{id: 14, title: 'You work for the government to brutally enforce their laws. One of your oldest friends has repeatedly sold cigarettes publicly on the streets, which is prohibited. He has been interrogated and imprisoned before for the same crime and the government looses patience. You have the order to imprison and publicly crucifix him.'},
+	{id: 10, title: 'You hide some friends of your family in your basement which believe in a religion prohibited by your government. Your neighbour knows about it. After a few weeks, you are questioned by the police and they threaten you with years in jail, if you should hide some of these pursued people.'},
+	{id: 11, title: 'You are a scientist at a national University. The government tries to build more atomic weapons. You\'re a nuclear scientist and are approached to assist them.'},
+	{id: 12, title: 'Your son was imprisoned by the police and taken into custody for critical speech about the government. You visit him in jail. He was imprisoned because he publicly said that the government should not ban public gatherings of groups of any size.'},
+	{id: 13, title: 'You immigrated 20 years ago together with your wife and kids. The government was elected recently and is enacting drastic laws. According to the newest law, immigrants are not allowed to stay in the country but have to return to their home country. Your best friend is father to three small children. He lost his property and job. In order to earn money to buy food, he had to join the ruthless army of the government to enforce their laws.'},
+	{id: 14, title: 'You work for the police forces of the government to enforce their laws. One of your oldest friends has repeatedly sold cigarettes publicly on the streets, which is prohibited. He has been interrogated and imprisoned before for the same crime and the government looses patience. You have the order to imprison and publicly crucifix him.'},
+	{id: 15, title: 'The government of your country is oppressing political opposition with forceful measures. Rebel groups are forming more and more as a consequence. You have been in military service for your country for almost 10 years and are now a general. New intelligence suggests that a rebel group is hiding in a civil hospital in the center of a nearby city. You receive the order to infiltrate the building and clear it. If necessary with casualties.'},
+	{id: 16, title: 'The government is enacting a new scientific program to develop a survailance framework to monitor all digital transfer. To this end they read, analyze and store private messages and calls of millions of civilians. You are a Computer Scientist capable of developing such a system and you are asked to assist with developing it.'},
 	])
 
 Question.create([
@@ -36,18 +38,23 @@ Question.create([
 	{id: 9, situation_id: 12, text: 'What do you do?'},
 	{id: 10, situation_id: 13, text: 'How do you react?'},
 	{id: 11, situation_id: 14, text: 'What will you do?'},
+	{id: 12, situation_id: 15, text: 'What do you do?'},
+	{id: 13, situation_id: 16, text: 'What do you do?'},
 	])
 
 Answer.create([
 	{id: 0, text: 'You go to the police and try to explain that he/she did nothing wrong.'},
-	{id: 1, text: 'Out of fear of getting punished, you take no action.'},
+	{id: 1, text: 'Out of fear of being negative consequences, you don\'t do anything.'},
+	{id: 48, text: 'You try to buy him/her free with all your money you saved for your retirement.'},
 	{id: 2, text: 'You are continuing smoking/drinking and try to do it in secret places.' },
 	{id: 3, text: 'You stop smoking/drinking and adjust to the new rules.' },
 	{id: 4, text: 'boat' },
 	{id: 5, text: 'public transportation' },
 	{id: 6, text: 'on foot' },
-	{id: 7, text: 'You take action and try to flee.' },
-	{id: 8, text: 'You decide to stay in your country. You demonstrate your decision by burying your friend.' },
+	{id: 7, text: 'You stay in your country and join the army to fight rebel groups forcefully.' },
+	{id: 8, text: 'You stay in your country. You bury your friend.' },
+	{id: 41, text: 'You leave the country with your family.' },
+	{id: 42, text: 'You stay in the country and publicy protest against the rebel group.' },
 	{id: 9, text: 'You help her hiding her religion and risk being hanged as well.' },
 	{id: 10, text: 'You tell the government about her to save yourself.' },
 	{id: 11, text: 'You try to let some people escape.' },
@@ -59,22 +66,34 @@ Answer.create([
 	{id: 17, text: 'You buy two seats for you and your wife.' },
 	{id: 18, text: 'You buy a seat for you and one of your kids.' },
 	{id: 19, text: 'You buy a seat for your wife and one of your kids.' },
+	
 	{id: 20, text: 'You deny hiding your friends.' },
 	{id: 21, text: 'You give hints to the police where your friends are hiding in your house.' },
-	{id: 22, text: 'You help them building mass destruction weapons against your will.' },
-	{id: 23, text: 'You help them building mass destruction weapons, which was on your mind anyway.' },
-	{id: 24, text: 'You refuse to help them.' },
-	{id: 25, text: 'You stay calm and quiet and accept the superiour government.' },
-	{id: 26, text: 'You contact officials of the government and ask them to release your son. Chances are very low, that you are heard and even if that your son is released again. He is a danger to the stability of their power.' },
-	{id: 27, text: 'You critize the government in conversations to friends and family in secret. You trust them, but you have to live in constant fear that one of the persons you talk to betrays you for a sack of money.' },
+	{id: 42, text: 'You deny hiding your friends and search for a safer place for them. Moving them increases the risk that they are seen in public.' },
+	{id: 43, text: 'You give hints to the police but ask them to protect your family in return. They may get angry and punish you for  your attempt to trade with them.' },
+	{id: 44, text: 'You tell your friends that they cannot stay in your house and that they have to leave.' },
+
+	{id: 22, text: 'You help them because you fear inconvenient consequences, such as loosing your job or being imprisoned.'},
+	{id: 23, text: 'You help them because you were about to do that anyways.' },
+	{id: 24, text: 'You refuse to help them. You know that some of your colleagues got threats against their families. In other cases they lost their job and were brandmarked on the job market.' },
+	{id: 25, text: 'You don\'t say anything and accept the decision.' },
+	{id: 26, text: 'You contact officials of the government and ask them to release your son. At least you demand a fair trial. Chances are very low, that someone listens. And even lower that your son is released again. He is a danger to the stability of their power.' },
+	{id: 27, text: 'You critize the government in conversations to friends and family in secret. You have to live in constant fear that one of the persons you talk to betrays you for a sack of money.' },
 	{id: 28, text: 'You publicly speak against the government and thereby accept following your son into prison. Your wife has to care for the other kids alone. There are not many possibilities to earn money.' },
 	{id: 29, text: 'You try to hide and try to convince him to leave the forces and to look for another job. Although chances are almost non-existent. Also, the government will interrogate him before he can leave the forces as they suspect him to being involved with the "enemies of the country". They will try to convince him to stay by publicly denouncing him, prohibiting him to find a new job.' },
 	{id: 30, text: 'You try to hide and to convince him that you should be allowed to stay in the country. However, if he receives the order to force you out of the country he most likely will do whatever is best for his family.' },
 	{id: 31, text: 'You try to hide and hope that he will not tell the government about you still being in the country.' },
 	{id: 32, text: 'You stop the contact to him and hide somewhere else.' },
 	{id: 33, text: 'You leave the country.' },
-	{id: 34, text: 'You tell your friend to hide. When the government asks you about him you tell them that he was hiding. You risk being suspected to have helped him. This may be to your and your family''s disadvantage in the future.' },
+	{id: 34, text: 'You tell your friend to hide. When the government asks you about him you say that you haven\'t seen him in weeks. You risk being suspected to help him. This may be to your and your family\'s disadvantage in the future.' },
 	{id: 35, text: 'You imprison your friend and tell him that it is his own fault. You also tell this to his wife and little daughter.' },
+	{id: 37, text: 'You refuse to help them.' },
+	{id: 38, text: 'You plan on carrying out the order and briefing your solders the next day. You are convinced that it is the right thing.' },
+	{id: 39, text: 'You refuse the order and risk military prison. You will be replaced by a new general which will then carry out the order. Probably more ruthlessly.' },
+	{id: 40, text: 'You carry out the order because you are convinced that you can neutralize the rebels without casualties. However, casualties are likely.' },
+	{id: 45, text: 'You help developing the program, because you are convinced that it helps your government to catch the bad guys.' },
+	{id: 46, text: 'You help developing the program, because you fear negative consequences such as loosing your job or being put into jail.' },
+	{id: 47, text: 'You refuse to help and risk being put into jail or loosing your job and being brandmarked on the job market.' },
 	])
 
 UniversalAnswer.create([
@@ -84,40 +103,66 @@ UniversalAnswer.create([
 QuestionHasAnswer.create([
 	{answer_id: 0, question_id: 0},
 	{answer_id: 1, question_id: 0},
+	{answer_id: 48, question_id: 0},
+	
 	{answer_id: 2, question_id: 1},
 	{answer_id: 3, question_id: 1},
+	
 	{answer_id: 4, question_id: 2},
 	{answer_id: 5, question_id: 2},
 	{answer_id: 6, question_id: 2},
+	
 	{answer_id: 7, question_id: 3},
 	{answer_id: 8, question_id: 3},
+	{answer_id: 41, question_id: 3},
+	{answer_id: 42, question_id: 3},
+	
 	{answer_id: 9, question_id: 4},
 	{answer_id: 10, question_id: 4},
+	{answer_id: 33, question_id: 4},
+	
 	{answer_id: 11, question_id: 5},
 	{answer_id: 12, question_id: 5},
 	{answer_id: 13, question_id: 5},
 	{answer_id: 14, question_id: 5},
+	
 	{answer_id: 15, question_id: 6},
 	{answer_id: 16, question_id: 6},
 	{answer_id: 17, question_id: 6},
 	{answer_id: 18, question_id: 6},
 	{answer_id: 19, question_id: 6},
+	
 	{answer_id: 20, question_id: 7},
 	{answer_id: 21, question_id: 7},
+	{answer_id: 42, question_id: 7},
+	{answer_id: 43, question_id: 7},
+	{answer_id: 44, question_id: 7},
+	
 	{answer_id: 22, question_id: 8},
 	{answer_id: 23, question_id: 8},
 	{answer_id: 24, question_id: 8},
+	
 	{answer_id: 25, question_id: 9},
 	{answer_id: 26, question_id: 9},
 	{answer_id: 27, question_id: 9},
 	{answer_id: 28, question_id: 9},
+	
 	{answer_id: 29, question_id: 10},
 	{answer_id: 30, question_id: 10},
 	{answer_id: 31, question_id: 10},
 	{answer_id: 32, question_id: 10},
 	{answer_id: 33, question_id: 10},
+	
 	{answer_id: 34, question_id: 11},
 	{answer_id: 35, question_id: 11},
+	
+	{answer_id: 38, question_id: 12},
+	{answer_id: 39, question_id: 12},
+	{answer_id: 40, question_id: 12},
+
+	{answer_id: 45, question_id: 13},
+	{answer_id: 46, question_id: 13},
+	{answer_id: 47, question_id: 13},
 	])
 
 Survey.create([
@@ -140,6 +185,8 @@ SurveyHasSituation.create([
 	{survey_id: 0, situation_id: 12},
 	{survey_id: 0, situation_id: 13},
 	{survey_id: 0, situation_id: 14},
+	{survey_id: 0, situation_id: 15},
+	{survey_id: 0, situation_id: 16},
 	])
 
 Nationality.create([
