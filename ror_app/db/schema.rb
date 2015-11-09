@@ -55,8 +55,8 @@ ActiveRecord::Schema.define(version: 20151109102306) do
   create_table "question_has_answers", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "answer_id"
     t.integer  "question_id"
+    t.integer  "answer_id"
   end
 
   create_table "questions", force: true do |t|

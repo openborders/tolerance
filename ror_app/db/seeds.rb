@@ -46,21 +46,28 @@ Answer.create([
 	{id: 0, text: 'You go to the police and try to explain that he/she did nothing wrong.'},
 	{id: 1, text: 'Out of fear of being negative consequences, you don\'t do anything.'},
 	{id: 48, text: 'You try to buy him/her free with all your money you saved for your retirement.'},
+
 	{id: 2, text: 'You are continuing smoking/drinking and try to do it in secret places.' },
 	{id: 3, text: 'You stop smoking/drinking and adjust to the new rules.' },
+
 	{id: 4, text: 'boat' },
 	{id: 5, text: 'public transportation' },
 	{id: 6, text: 'on foot' },
+
 	{id: 7, text: 'You stay in your country and join the army to fight rebel groups forcefully.' },
 	{id: 8, text: 'You stay in your country. You bury your friend.' },
 	{id: 41, text: 'You leave the country with your family.' },
 	{id: 42, text: 'You stay in the country and publicy protest against the rebel group.' },
+
 	{id: 9, text: 'You help her hiding her religion and risk being hanged as well.' },
 	{id: 10, text: 'You tell the government about her to save yourself.' },
+	{id: 33, text: 'You leave the country.' },
+	
 	{id: 11, text: 'You try to let some people escape.' },
 	{id: 12, text: 'You refuse to take action in these tortures.' },
 	{id: 13, text: 'You follow the orders, but try to mitigate your tortures.' },
 	{id: 14, text: 'You follow the orders and are happy to do so.' },
+
 	{id: 15, text: 'You try to hide and wait until you have enough money in several months risking being captured every day.' },
 	{id: 16, text: 'You buy two seats for two of your kids.' },
 	{id: 17, text: 'You buy two seats for you and your wife.' },
@@ -69,28 +76,33 @@ Answer.create([
 	
 	{id: 20, text: 'You deny hiding your friends.' },
 	{id: 21, text: 'You give hints to the police where your friends are hiding in your house.' },
-	{id: 42, text: 'You deny hiding your friends and search for a safer place for them. Moving them increases the risk that they are seen in public.' },
+	{id: 49, text: 'You deny hiding your friends and search for a safer place for them. Moving them increases the risk that they are seen in public.' },
 	{id: 43, text: 'You give hints to the police but ask them to protect your family in return. They may get angry and punish you for  your attempt to trade with them.' },
 	{id: 44, text: 'You tell your friends that they cannot stay in your house and that they have to leave.' },
 
 	{id: 22, text: 'You help them because you fear inconvenient consequences, such as loosing your job or being imprisoned.'},
 	{id: 23, text: 'You help them because you were about to do that anyways.' },
 	{id: 24, text: 'You refuse to help them. You know that some of your colleagues got threats against their families. In other cases they lost their job and were brandmarked on the job market.' },
+	
 	{id: 25, text: 'You don\'t say anything and accept the decision.' },
 	{id: 26, text: 'You contact officials of the government and ask them to release your son. At least you demand a fair trial. Chances are very low, that someone listens. And even lower that your son is released again. He is a danger to the stability of their power.' },
 	{id: 27, text: 'You critize the government in conversations to friends and family in secret. You have to live in constant fear that one of the persons you talk to betrays you for a sack of money.' },
 	{id: 28, text: 'You publicly speak against the government and thereby accept following your son into prison. Your wife has to care for the other kids alone. There are not many possibilities to earn money.' },
+	
 	{id: 29, text: 'You try to hide and try to convince him to leave the forces and to look for another job. Although chances are almost non-existent. Also, the government will interrogate him before he can leave the forces as they suspect him to being involved with the "enemies of the country". They will try to convince him to stay by publicly denouncing him, prohibiting him to find a new job.' },
 	{id: 30, text: 'You try to hide and to convince him that you should be allowed to stay in the country. However, if he receives the order to force you out of the country he most likely will do whatever is best for his family.' },
 	{id: 31, text: 'You try to hide and hope that he will not tell the government about you still being in the country.' },
 	{id: 32, text: 'You stop the contact to him and hide somewhere else.' },
-	{id: 33, text: 'You leave the country.' },
+	# 33 is above
+
 	{id: 34, text: 'You tell your friend to hide. When the government asks you about him you say that you haven\'t seen him in weeks. You risk being suspected to help him. This may be to your and your family\'s disadvantage in the future.' },
 	{id: 35, text: 'You imprison your friend and tell him that it is his own fault. You also tell this to his wife and little daughter.' },
+	
 	{id: 37, text: 'You refuse to help them.' },
 	{id: 38, text: 'You plan on carrying out the order and briefing your solders the next day. You are convinced that it is the right thing.' },
 	{id: 39, text: 'You refuse the order and risk military prison. You will be replaced by a new general which will then carry out the order. Probably more ruthlessly.' },
 	{id: 40, text: 'You carry out the order because you are convinced that you can neutralize the rebels without casualties. However, casualties are likely.' },
+	
 	{id: 45, text: 'You help developing the program, because you are convinced that it helps your government to catch the bad guys.' },
 	{id: 46, text: 'You help developing the program, because you fear negative consequences such as loosing your job or being put into jail.' },
 	{id: 47, text: 'You refuse to help and risk being put into jail or loosing your job and being brandmarked on the job market.' },
@@ -134,7 +146,7 @@ QuestionHasAnswer.create([
 	
 	{answer_id: 20, question_id: 7},
 	{answer_id: 21, question_id: 7},
-	{answer_id: 42, question_id: 7},
+	{answer_id: 49, question_id: 7},
 	{answer_id: 43, question_id: 7},
 	{answer_id: 44, question_id: 7},
 	
@@ -156,6 +168,7 @@ QuestionHasAnswer.create([
 	{answer_id: 34, question_id: 11},
 	{answer_id: 35, question_id: 11},
 	
+	{answer_id: 37, question_id: 12},
 	{answer_id: 38, question_id: 12},
 	{answer_id: 39, question_id: 12},
 	{answer_id: 40, question_id: 12},
