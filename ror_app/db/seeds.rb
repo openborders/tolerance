@@ -11,15 +11,15 @@ Situation.create([
 	{id: 2, title: 'A member of your family was captured forcefully by the police and taken into custody for a crime he/she didn\'t commit.'},
 	{id: 3, title: 'A member of your family was captured forcefully by forces of the government and taken into custody for critical speech about them or the government.'},
 	{id: 4, title: 'A new government rule prohibits drinking alcohol or smoking and is controlled strictly by armed forces. If civilians are caught drinking or smoking on the streets, they will be sent to jail. Unfortunately, you are (somewhat) addicted to alcohol and/or tabaco.'},
-	{id: 5, title: 'The political and economical situation in your country is getting more instable every day. Civilians are put into jail without trial. Protests on the streets are struck down bloodily. The situation is likely to escalate soon. Your country has one neighbor country and is surrounded by water on the remaining borders. The situation in the neighboring country is even worse. You decide to leave your country.'},
+	{id: 5, title: 'The political and economical situation in your country is getting more instable every day. Civilians are put into jail without trial. Protests on the streets are struck down bloodily. The situation is likely to escalate soon. Your country has one neighbor country and is surrounded by water on the remaining borders. The situation in the neighboring country is even worse. You decide to leave your country. People are not officially allowed to leave the country.'},
 	{id: 6, title: 'A bomb detonated in your neighborhood, three houses away. It was the fifth detonation close by within 2 months. A rebel group has claimed responsibility for the recent attack. One of your friends died, as he lived in a house close to the detonation.'},
 	{id: 7, title: 'Your partner has a different religion than you. It has just been forbidden by the government. Practitioners of that  religion are being hanged publicly and their whole family is under general suspicion of collaboration.'},
 	{id: 8, title: 'You work as a police officer in your country and are forced by the government to question people through torture (waterboarding, sleep deprivation, abuse, ...) and you know that these people are innocent. If you don\'t follow the orders, you will be tortured instead.'},
-	{id: 9, title: 'You, your wife and your three kids have to flee the country because you are wanted by your government for having sold alcohol. You have enough money to pay for two seets in a boat.'},
+	{id: 9, title: 'You, your partner and your three kids have to flee the country because you are wanted by your government for selling alcohol. You have enough money to pay for two seets in a boat.'},
 	{id: 10, title: 'You hide some friends of your family in your basement which believe in a religion prohibited by your government. Your neighbour knows about it. After a few weeks, you are questioned by the police and they threaten you with years in jail, if you should hide some of these pursued people.'},
 	{id: 11, title: 'You are a scientist at a national University. The government tries to build more atomic weapons. You\'re a nuclear scientist and are approached to assist them.'},
 	{id: 12, title: 'Your son was imprisoned by the police and taken into custody for critical speech about the government. You visit him in jail. He was imprisoned because he publicly said that the government should not ban public gatherings of groups of any size.'},
-	{id: 13, title: 'You immigrated 20 years ago together with your wife and kids. The government was elected recently and is enacting drastic laws. According to the newest law, immigrants are not allowed to stay in the country but have to return to their home country. Your best friend is father to three small children. He lost his property and job. In order to earn money to buy food, he had to join the ruthless army of the government to enforce their laws.'},
+	{id: 13, title: 'You immigrated 20 years ago together with your partner and kids. The government was elected recently and is enacting drastic laws. According to the newest law, immigrants are not allowed to stay in the country but have to return to their home country. Your best friend is father to three small children. He lost his property and job. In order to earn money to buy food, he had to join the ruthless army of the government to enforce their laws.'},
 	{id: 14, title: 'You work for the police forces of the government to enforce their laws. One of your oldest friends has repeatedly sold cigarettes publicly on the streets, which is prohibited. He has been interrogated and imprisoned before for the same crime and the government looses patience. You have the order to imprison and publicly crucifix him.'},
 	{id: 15, title: 'The government of your country is oppressing political opposition with forceful measures. Rebel groups are forming more and more as a consequence. You have been in military service for your country for almost 10 years and are now a general. New intelligence suggests that a rebel group is hiding in a civil hospital in the center of a nearby city. You receive the order to infiltrate the building and clear it. If necessary with casualties.'},
 	{id: 16, title: 'The government is enacting a new scientific program to develop a survailance framework to monitor all digital transfer. To this end they read, analyze and store private messages and calls of millions of civilians. You are a Computer Scientist capable of developing such a system and you are asked to assist with developing it.'},
@@ -43,36 +43,40 @@ Question.create([
 	])
 
 Answer.create([
-	{id: 0, text: 'You go to the police and try to explain that he/she did nothing wrong.'},
-	{id: 1, text: 'Out of fear of being negative consequences, you don\'t do anything.'},
-	{id: 48, text: 'You try to buy him/her free with all your money you saved for your retirement.'},
+	{id: 0, text: 'You go to the police and try to explain that he/she did nothing wrong. Probably they will not listen to you.'},
+	{id: 1, text: 'Out of fear of negative consequences, you don\'t do anything.'},
+	{id: 48, text: 'You try to buy him/her free with all your money you saved for your retirement. However, nobody guarantees that he will not be imprisoned again soon.'},
+	{id: 50, text: 'You publicly criticize the police and risk being imprisoned as well.'},
 
 	{id: 2, text: 'You are continuing smoking/drinking and try to do it in secret places.' },
 	{id: 3, text: 'You stop smoking/drinking and adjust to the new rules.' },
 
-	{id: 4, text: 'boat' },
-	{id: 5, text: 'public transportation' },
-	{id: 6, text: 'on foot' },
+	{id: 4, text: 'boat. You risk being caught by the coast guard. People caught trying to flee are put into prison and are interrogated for 30 days.' },
+	{id: 5, text: 'public transportation. You risk being caught by police controls. People caught trying to flee are put into prison and are interrogated for 30 days.' },
+	{id: 6, text: 'on foot. Your trip will be slow and you risk dying, starving or freezing to death before you arrive.' },
 
 	{id: 7, text: 'You stay in your country and join the army to fight rebel groups forcefully.' },
 	{id: 8, text: 'You stay in your country. You bury your friend.' },
 	{id: 41, text: 'You leave the country with your family.' },
 	{id: 42, text: 'You stay in the country and publicy protest against the rebel group.' },
 
-	{id: 9, text: 'You help her hiding her religion and risk being hanged as well.' },
+	{id: 9, text: 'You help her pursuing her religion in secret and risk being hanged as well.' },
 	{id: 10, text: 'You tell the government about her to save yourself.' },
 	{id: 33, text: 'You leave the country.' },
+	{id: 51, text: 'You don\'t do anything and hope that no one will find out. Your family has to live in constant fear that your partner\'s believes will be discovered.' },
+	{id: 52, text: 'You don\'t tell anyone and hope that no one will find out. You publicly criticize the government and risk being imprisoned or hanged.' },
+	
 	
 	{id: 11, text: 'You try to let some people escape.' },
 	{id: 12, text: 'You refuse to take action in these tortures.' },
 	{id: 13, text: 'You follow the orders, but try to mitigate your tortures.' },
 	{id: 14, text: 'You follow the orders and are happy to do so.' },
 
-	{id: 15, text: 'You try to hide and wait until you have enough money in several months risking being captured every day.' },
-	{id: 16, text: 'You buy two seats for two of your kids.' },
-	{id: 17, text: 'You buy two seats for you and your wife.' },
-	{id: 18, text: 'You buy a seat for you and one of your kids.' },
-	{id: 19, text: 'You buy a seat for your wife and one of your kids.' },
+	{id: 15, text: 'You try to hide and wait until you have enough money for your whole family in several months. You risk being captured before you can leave the country.' },
+	{id: 16, text: 'You buy two seats for two of your kids. Your partner and you plan on following them. You live in constant fear for your children.' },
+	{id: 17, text: 'You buy two seats for you and your partner. Your kids should follow as soon as you have the money. You live in constant fear for your children.' },
+	{id: 18, text: 'You buy a seat for you and one of your kids. Both your partner and you watch out for one of your kids. You live in constant fear for your partner and children.' },
+	{id: 19, text: 'You buy a seat for your partner and one of your kids. Both your partner and you watch out for one of your kids. You live in constant fear for your partner and children and for being caught.' },
 	
 	{id: 20, text: 'You deny hiding your friends.' },
 	{id: 21, text: 'You give hints to the police where your friends are hiding in your house.' },
@@ -86,17 +90,17 @@ Answer.create([
 	
 	{id: 25, text: 'You don\'t say anything and accept the decision.' },
 	{id: 26, text: 'You contact officials of the government and ask them to release your son. At least you demand a fair trial. Chances are very low, that someone listens. And even lower that your son is released again. He is a danger to the stability of their power.' },
-	{id: 27, text: 'You critize the government in conversations to friends and family in secret. You have to live in constant fear that one of the persons you talk to betrays you for a sack of money.' },
-	{id: 28, text: 'You publicly speak against the government and thereby accept following your son into prison. Your wife has to care for the other kids alone. There are not many possibilities to earn money.' },
+	{id: 27, text: 'You criticize the government in conversations to friends and family in secret. You have to live in constant fear that one of the persons you talk to betrays you for a sack of money.' },
+	{id: 28, text: 'You publicly speak against the government and thereby taking the risk to follow your son into prison. Your partner has to care for the other kids alone. There are not many possibilities to earn money.' },
 	
-	{id: 29, text: 'You try to hide and try to convince him to leave the forces and to look for another job. Although chances are almost non-existent. Also, the government will interrogate him before he can leave the forces as they suspect him to being involved with the "enemies of the country". They will try to convince him to stay by publicly denouncing him, prohibiting him to find a new job.' },
-	{id: 30, text: 'You try to hide and to convince him that you should be allowed to stay in the country. However, if he receives the order to force you out of the country he most likely will do whatever is best for his family.' },
-	{id: 31, text: 'You try to hide and hope that he will not tell the government about you still being in the country.' },
-	{id: 32, text: 'You stop the contact to him and hide somewhere else.' },
+	{id: 29, text: 'You try to hide in your house. You have to ask friends to bring you food. Also, you cannot go to your official work anymore. You try to convince him to leave the forces and to look for another job. You know, that there are few jobs available. Also, the government will interrogate him why he wants to leave. They will suspect that is involved with the "enemies of the country". They will try to manipulate him to stay by publicly denouncing him and preventing him from finding a new job. He is likely to betray you.' },
+	{id: 30, text: 'You try to hide in your house. You have to ask friends to bring you food. Also, you cannot go to your official work anymore. You try to convince him that you should be allowed to stay in the country. If he receives the order to force you out of the country he most likely will do whatever is best for his family.' },
+	#{id: 31, text: 'You try to hide in your house and hope that he will not tell the government about you.' },
+	{id: 32, text: 'You stop the contact to him and hide somewhere. You and your family cannot stay in your house.' },
 	# 33 is above
 
 	{id: 34, text: 'You tell your friend to hide. When the government asks you about him you say that you haven\'t seen him in weeks. You risk being suspected to help him. This may be to your and your family\'s disadvantage in the future.' },
-	{id: 35, text: 'You imprison your friend and tell him that it is his own fault. You also tell this to his wife and little daughter.' },
+	{id: 35, text: 'You imprison your friend and tell him that it is his own fault. You also tell this to his partner and little daughter.' },
 	
 	{id: 37, text: 'You refuse to help them.' },
 	{id: 38, text: 'You plan on carrying out the order and briefing your solders the next day. You are convinced that it is the right thing.' },
@@ -104,8 +108,9 @@ Answer.create([
 	{id: 40, text: 'You carry out the order because you are convinced that you can neutralize the rebels without casualties. However, casualties are likely.' },
 	
 	{id: 45, text: 'You help developing the program, because you are convinced that it helps your government to catch the bad guys.' },
-	{id: 46, text: 'You help developing the program, because you fear negative consequences such as loosing your job or being put into jail.' },
+	{id: 46, text: 'You help developing the program, because you fear negative consequences. You have heard of colleagues, that the government threatened them with their and their families lifes if they refuse. Others reported to have lost their job.' },
 	{id: 47, text: 'You refuse to help and risk being put into jail or loosing your job and being brandmarked on the job market.' },
+	{id: 53, text: 'You help developing the program and try to sabotage it by making it slow and error-prone. However, in case anyone finds out you risk being imprisoned and put your families lifes in danger.' },
 	])
 
 UniversalAnswer.create([
@@ -116,6 +121,7 @@ QuestionHasAnswer.create([
 	{answer_id: 0, question_id: 0},
 	{answer_id: 1, question_id: 0},
 	{answer_id: 48, question_id: 0},
+	{answer_id: 50, question_id: 0},
 	
 	{answer_id: 2, question_id: 1},
 	{answer_id: 3, question_id: 1},
@@ -132,6 +138,8 @@ QuestionHasAnswer.create([
 	{answer_id: 9, question_id: 4},
 	{answer_id: 10, question_id: 4},
 	{answer_id: 33, question_id: 4},
+	{answer_id: 51, question_id: 4},
+	{answer_id: 52, question_id: 4},
 	
 	{answer_id: 11, question_id: 5},
 	{answer_id: 12, question_id: 5},
