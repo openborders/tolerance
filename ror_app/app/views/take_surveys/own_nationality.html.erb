@@ -1,11 +1,20 @@
 <% content_for :title do %>
-Survey
-<% end %>
-
-<% content_for :subtitle do %>
 <%= @survey.title %>
 <% end %>
 
+<% content_for :subtitle do %>
+Getting to know you
+<% end %>
+
+<p class="lead">
+	<mark>Line:</mark> As I said, in the end after you told me how you act in these ten critical situations a surprise is waiting for you! :-)
+	<br>
+	<mark>Line:</mark> But for that to work, I need to know your nationality.
+	<br>
+	<mark>Line:</mark> This is the only information I need of you. So please be honest!
+	<br>
+	<mark>Line:</mark> If you are not sure which nationality to pick, pick the one you identify most with or where you grew up.
+</p>
 <%= form_tag(next_wizard_path, method: :put) do %>
 	<div class="panel panel-default">
 	  <div class="panel-heading">

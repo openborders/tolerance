@@ -1,11 +1,23 @@
 <% if @other_survey %>
 		<% content_for :title do %>
-		Survey
+		<%= @survey.title %>
 		<% end %>
 
 		<% content_for :subtitle do %>
-		One Last Task
+		The surprise
 		<% end %>
+
+		<p class="lead">
+		<mark>Line: </mark> Interesting answers... thanks!
+		<br>
+		<mark>Line: </mark> Now, the surprise. :-)
+		<br>
+		<mark>Line: </mark> Just as you answered ten questions, other people have done the same.
+		<br>
+		<mark>Line: </mark> I'd like to know the following: Can you guess the nationality of the person that answered the questions (or at least the right continent), only given that persons answers to the questions?
+		<br>
+		</p>
+
 		<div class="jumbotron">
 		  <h2>What do you think is the nationality of the person that gave the following answers?</h2>
 		</div>

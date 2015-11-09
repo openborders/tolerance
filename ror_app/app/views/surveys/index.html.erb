@@ -1,0 +1,9 @@
+<h2>Our surveys</h2>
+<p class="lead">
+	Take a survey by clicking on it. Currently, we "only" have created one survey. :-)
+</p>
+<ul class="list-group">
+<% for survey in @surveys %>
+	<li class="list-group-item"><%= link_to survey.title, survey %></li>
+<% end %>
+</ul>

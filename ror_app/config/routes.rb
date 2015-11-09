@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   resources :surveys do
     resources :take_surveys
   end
+  resources :contributes
+  resources :contacts
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -82,8 +82,18 @@ $(function () {
 </script>
 
 <div class="page-header">
-  <h1>Survey <small>Summary</small></h1>
+  <h1>Tolerance <small>Result</small></h1>
 </div>
+
+
+<p class="lead">
+<mark>Line:</mark> Did you guess correctly? What do you think? And what does it mean if you guessed incorrectly?
+<br>
+<mark>Line:</mark> Of course it's difficult to guess exactly the right nationality;
+<br>
+<mark>Line:</mark> But since earth only has a few continents chances that you guess the correct one are fair.
+<br>
+</p>
 
 <% if @you_guessed_correctly %>
 <div class="alert alert-success" role="alert">
@@ -95,9 +105,6 @@ Your guess (<%= Nationality.find(@your_guess).name %>) was incorrect! The person
 </div>
 <% end %>
 
-<div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
-
-
 <% if @you_guessed_correctly_continent %>
 <div class="alert alert-success" role="alert">
 You guessed a nationality on the correct continent (<%= Nationality.find(@your_guess).name %> and <b><%= Nationality.find(@true_nationality).name %></b> both belong to <%= Nationality.find(@your_guess).continent.name %>)!
@@ -107,4 +114,27 @@ You guessed a nationality on the correct continent (<%= Nationality.find(@your_g
 The continent of your guess (<%= Nationality.find(@your_guess).name %> belongs to <%= Nationality.find(@your_guess).continent.name %>) was incorrect! The person's true nationality was <%= Nationality.find(@true_nationality).name %>, which belongs to <b><%= Nationality.find(@true_nationality).continent.name %></b>.
 </div>
 <% end %>
-<div id="container_continent" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+
+
+<p class="lead">
+<mark>Line:</mark> As you probably guessed already. I also asked all the other people to guess another persons nationality.
+<br>
+<mark>Line:</mark> How many do guess correctly? What do you think?
+<br>
+<mark>Line:</mark> Well, look for yourself:
+<br>
+</p>
+
+<div class="row">
+    <div class="col-lg-6">
+        <div id="container" style="min-width: 310px; height: 400px; max-width: 100%; margin: 0 auto; float: left;"></div>
+    </div>
+    <div class="col-lg-6">
+        <div id="container_continent" style="min-width: 310px; height: 400px; max-width: 100%; margin: 0 auto"></div>
+    </div>
+</div>
+
+<p class="lead">
+<mark>Line:</mark> Surprised?
+<br>
+</p>

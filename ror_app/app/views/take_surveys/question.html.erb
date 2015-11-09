@@ -1,9 +1,9 @@
 <% content_for :title do %>
-Survey
+<%= @survey.title %>
 <% end %>
 
 <% content_for :subtitle do %>
-<%= @survey.title %>
+Question <%= @questionNumber %>
 <% end %>
 
 <% sit = @situation %>

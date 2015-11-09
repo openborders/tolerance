@@ -16,6 +16,8 @@ class TakeSurveysController < ApplicationController
 	def update
 		@survey = Survey.find(params[:survey_id])
 
+		@questionNumber = wizard_steps.index(step)
+
 		# check for values of last question
 		if session.has_key?(:user_answers_survey)
 			@user_answers_survey = UserAnswersSurvey.find(session[:user_answers_survey])
