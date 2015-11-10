@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'index#index'
   resources :surveys do
+    get 'summary' => 'surveys#summary'
     resources :take_surveys
   end
   resources :contributes

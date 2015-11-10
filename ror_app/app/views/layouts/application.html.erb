@@ -53,6 +53,7 @@
           </button>
           <ul class="nav navbar-nav">
             <li><a href="<%= url_for(controller: :surveys, action: :index) %>">To the Surveys</a></li>
+            <li><a href="<%= url_for(controller: :surveys, action: :summary, survey_id: 0) %>">The Survey Statistics</a></li>
             <li><a href="<%= url_for(controller: :contributes, action: :index) %>">Contribute</a></li>
             <li><a href="<%= url_for(controller: :contacts, action: :index) %>">Contact us</a></li>
           </ul>
