@@ -15,7 +15,7 @@ Situation.create([
 	{id: 6, title: 'A bomb detonated in your neighborhood, three houses away. It was the fifth detonation close by within 2 months. A rebel group has claimed responsibility for the recent attack. One of your friends died, as he lived in a house close to the detonation.'},
 	{id: 7, title: 'Your partner has a different religion than you. It has just been forbidden by the government. Practitioners of that  religion are being hanged publicly and their whole family is under general suspicion of collaboration.'},
 	{id: 8, title: 'You work as a police officer in your country and are forced by the government to question people through torture (waterboarding, sleep deprivation, abuse, ...) and you know that these people are innocent. If you don\'t follow the orders, you will be tortured instead.'},
-	{id: 9, title: 'You, your partner and your three kids have to flee the country because you are wanted by your government for selling alcohol. You have enough money to pay for two seets in a boat.'},
+	{id: 9, title: 'You, your partner and your two kids have to flee the country because you are wanted by your government for selling alcohol. You have enough money to pay for two seets in a boat.'},
 	{id: 10, title: 'You hide some friends of your family in your basement which believe in a religion prohibited by your government. Your neighbour knows about it. After a few weeks, you are questioned by the police and they threaten you with years in jail, if you should hide some of these pursued people.'},
 	{id: 11, title: 'You are a scientist at a national University. The government tries to build more atomic weapons. You\'re a nuclear scientist and are approached to assist them.'},
 	{id: 12, title: 'Your son was imprisoned by the police and taken into custody for critical speech about the government. You visit him in jail. He was imprisoned because he publicly said that the government should not ban public gatherings of groups of any size.'},
@@ -73,7 +73,7 @@ Answer.create([
 	{id: 14, text: 'You follow the orders and are happy to do so.' },
 
 	{id: 15, text: 'You try to hide and wait until you have enough money for your whole family in several months. You risk being captured before you can leave the country.' },
-	{id: 16, text: 'You buy two seats for two of your kids. Your partner and you plan on following them. You live in constant fear for your children.' },
+	{id: 16, text: 'You buy two seats for your two kids. Your partner and you plan on following them. You live in constant fear for your children.' },
 	{id: 17, text: 'You buy two seats for you and your partner. Your kids should follow as soon as you have the money. You live in constant fear for your children.' },
 	{id: 18, text: 'You buy a seat for you and one of your kids. Both your partner and you watch out for one of your kids. You live in constant fear for your partner and children.' },
 	{id: 19, text: 'You buy a seat for your partner and one of your kids. Both your partner and you watch out for one of your kids. You live in constant fear for your partner and children and for being caught.' },
