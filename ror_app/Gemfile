@@ -42,3 +42,5 @@ gem 'twitter-bootstrap-rails'
 
 gem 'wicked'
 gem 'highcharts-rails'
+
+gem "rails-erd"
