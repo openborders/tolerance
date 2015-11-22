@@ -98,11 +98,14 @@ class TakeSurveysController < ApplicationController
 			return render_wizard
 		when :summary
 			# we only submit the guess if the user did not guess before
-			@bla = UserGuessesNationality.where(:user_id == UserAnswersSurvey.find(session[:other_survey]).user.id, :user_answers_survey_id == session[:other_survey], :nationality_id == params[:user][:nationality_id])
+			@bla = UserGuessesNationality.where(
+				user_id: UserAnswersSurvey.find(session[:user_answers_survey]).user.id, 
+				user_answers_survey_id: session[:user_answers_survey], 
+				nationality_id: params[:user][:nationality_id])
 			if @bla.count() == 0
 				UserGuessesNationality.create(
-					user_id: UserAnswersSurvey.find(session[:other_survey]).user.id,
-					user_answers_survey_id: session[:other_survey],
+					user_id: UserAnswersSurvey.find(session[:user_answers_survey]).user.id,
+					user_answers_survey_id: session[:user_answers_survey],
 					nationality_id: params[:user][:nationality_id])
 			end
 			@your_guess = params[:user][:nationality_id].to_i
