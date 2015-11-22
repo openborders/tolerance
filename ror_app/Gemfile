@@ -44,3 +44,7 @@ gem 'wicked'
 gem 'highcharts-rails'
 
 gem "rails-erd"
+
+group :development, :test do
+    gem 'railroady'
+end

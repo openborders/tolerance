@@ -2,6 +2,7 @@ class Question < ActiveRecord::Base
 	belongs_to :situation
 	has_many :question_has_answers
 	has_many :answers, through: :question_has_answers
+	has_many :answered_questions
 
 	def answers
 		res = super

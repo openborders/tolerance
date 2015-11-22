@@ -1,5 +1,6 @@
 class Situation < ActiveRecord::Base
 	has_many :questions
+	has_many :survey_has_situation
 
 	def get_random_question
 		# TODO: only select questions with at least one answer
