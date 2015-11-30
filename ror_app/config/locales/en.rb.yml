@@ -1,0 +1,506 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  situation_0_title: "The president of your country shoots civilians who they think are a threat to their power."
+  situation_1_title: "A neighboring country decides to invade part of your country to improve their strategic position and/or access to fossile ressources."
+  situation_2_title: "A member of your family was captured forcefully by the police and taken into custody for a crime he/she didn't commit."
+  situation_3_title: "A member of your family was captured forcefully by forces of the government and taken into custody for critical speech about them or the government."
+  situation_4_title: "A new government rule prohibits drinking alcohol or smoking and is controlled strictly by armed forces. If civilians are caught drinking or smoking on the streets, they will be sent to jail. Unfortunately, you are (somewhat) addicted to alcohol and/or tabaco."
+  situation_5_title: "The political and economical situation in your country is getting more instable every day. Civilians are put into jail without trial. Protests on the streets are struck down bloodily. The situation is likely to escalate soon. Your country has one neighbor country and is surrounded by water on the remaining borders. The situation in the neighboring country is even worse. You decide to leave your country. People are not officially allowed to leave the country."
+  situation_6_title: "A bomb detonated in your neighborhood, three houses away. It was the fifth detonation close by within 2 months. A rebel group has claimed responsibility for the recent attack. One of your friends died, as he lived in a house close to the detonation."
+  situation_7_title: "Your partner has a different religion than you. It has just been forbidden by the government. Practitioners of that  religion are being hanged publicly and their whole family is under general suspicion of collaboration."
+  situation_8_title: "You work as a police officer in your country and are forced by the government to question people through torture (waterboarding, sleep deprivation, abuse, ...) and you know that these people are innocent. If you don't follow the orders, you will be tortured instead."
+  situation_9_title: "You, your partner and your two kids have to flee the country because you are wanted by your government for selling alcohol. You have enough money to pay for two seets in a boat."
+  situation_10_title: "You hide some friends of your family in your basement which believe in a religion prohibited by your government. Your neighbour knows about it. After a few weeks, you are questioned by the police and they threaten you with years in jail, if you should hide some of these pursued people."
+  situation_11_title: "You are a scientist at a national University. The government tries to build more atomic weapons. You're a nuclear scientist and are approached to assist them."
+  situation_12_title: "Your son was imprisoned by the police and taken into custody for critical speech about the government. You visit him in jail. He was imprisoned because he publicly said that the government should not ban public gatherings of groups of any size."
+  situation_13_title: "You immigrated 20 years ago together with your partner and kids. The government was elected recently and is enacting drastic laws. According to the newest law, immigrants are not allowed to stay in the country but have to return to their home country. Your best friend is father to three small children. He lost his property and job. In order to earn money to buy food, he had to join the ruthless army of the government to enforce their laws."
+  situation_14_title: "You work for the police forces of the government to enforce their laws. One of your oldest friends has repeatedly sold cigarettes publicly on the streets, which is prohibited. He has been interrogated and imprisoned before for the same crime and the government looses patience. You have the order to imprison and publicly crucifix him."
+  situation_15_title: "The government of your country is oppressing political opposition with forceful measures. Rebel groups are forming more and more as a consequence. You have been in military service for your country for almost 10 years and are now a general. New intelligence suggests that a rebel group is hiding in a civil hospital in the center of a nearby city. You receive the order to infiltrate the building and clear it. If necessary with casualties."
+  situation_16_title: "The government is enacting a new scientific program to develop a survailance framework to monitor all digital transfer. To this end they read, analyze and store private messages and calls of millions of civilians. You are a Computer Scientist capable of developing such a system and you are asked to assist with developing it."
+  question_0_text: 'What do you do?'
+  question_1_text: 'What do you do?'
+  question_2_text: 'You try to flee via ...'
+  question_3_text: 'How do you react?'
+  question_4_text: 'What do you do?'
+  question_5_text: 'How do you behave?'
+  question_6_text: 'What will you do?'
+  question_7_text: 'How do you react?'
+  question_8_text: 'How do you react?'
+  question_9_text: 'What do you do?'
+  question_10_text: 'How do you react?'
+  question_11_text: 'What will you do?'
+  question_12_text: 'What do you do?'
+  question_13_text: 'What do you do?'
+  answer_0_text: "You go to the police and try to explain that he/she did nothing wrong. Probably they will not listen to you."
+  answer_1_text: "Out of fear of negative consequences, you don't do anything."
+  answer_48_text: "You try to buy him/her free with all your money you saved for your retirement. However, nobody guarantees that he will not be imprisoned again soon."
+  answer_50_text: "You publicly criticize the police and risk being imprisoned as well."
+  answer_2_text: "You are continuing smoking/drinking and try to do it in secret places."
+  answer_3_text: "You stop smoking/drinking and adjust to the new rules."
+  answer_4_text: "boat. You risk being caught by the coast guard. People caught trying to flee are put into prison and are interrogated for 30 days."
+  answer_5_text: "public transportation. You risk being caught by police controls. People caught trying to flee are put into prison and are interrogated for 30 days."
+  answer_6_text: "on foot. Your trip will be slow and you risk dying, starving or freezing to death before you arrive."
+  answer_7_text: "You stay in your country and join the army to fight rebel groups forcefully."
+  answer_8_text: "You stay in your country. You bury your friend."
+  answer_41_text: "You leave the country with your family."
+  answer_42_text: "You stay in the country and publicy protest against the rebel group."
+  answer_9_text: "You help her pursuing her religion in secret and risk being hanged as well."
+  answer_10_text: "You tell the government about her to save yourself."
+  answer_33_text: "You leave the country."
+  answer_51_text: "You don't do anything and hope that no one will find out. Your family has to live in constant fear that your partner's believes will be discovered."
+  answer_52_text: "You don't tell anyone and hope that no one will find out. You publicly criticize the government and risk being imprisoned or hanged."
+  answer_11_text: "You try to let some people escape."
+  answer_12_text: "You refuse to take action in these tortures."
+  answer_13_text: "You follow the orders, but try to mitigate your tortures."
+  answer_14_text: "You follow the orders and are happy to do so."
+  answer_15_text: "You try to hide and wait until you have enough money for your whole family in several months. You risk being captured before you can leave the country."
+  answer_16_text: "You buy two seats for your two kids. Your partner and you plan on following them. You live in constant fear for your children."
+  answer_17_text: "You buy two seats for you and your partner. Your kids should follow as soon as you have the money. You live in constant fear for your children."
+  answer_18_text: "You buy a seat for you and one of your kids. Both your partner and you watch out for one of your kids. You live in constant fear for your partner and children."
+  answer_19_text: "You buy a seat for your partner and one of your kids. Both your partner and you watch out for one of your kids. You live in constant fear for your partner and children and for being caught."
+  answer_20_text: "You deny hiding your friends."
+  answer_21_text: "You give hints to the police where your friends are hiding in your house."
+  answer_49_text: "You deny hiding your friends and search for a safer place for them. Moving them increases the risk that they are seen in public."
+  answer_43_text: "You give hints to the police but ask them to protect your family in return. They may get angry and punish you for  your attempt to trade with them."
+  answer_44_text: "You tell your friends that they cannot stay in your house and that they have to leave."
+  answer_22_text: "You help them because you fear inconvenient consequences, such as loosing your job or being imprisoned."
+  answer_23_text: "You help them because you were about to do that anyways."
+  answer_24_text: "You refuse to help them. You know that some of your colleagues got threats against their families. In other cases they lost their job and were brandmarked on the job market."
+  answer_25_text: "You don't say anything and accept the decision."
+  answer_26_text: "You contact officials of the government and ask them to release your son. At least you demand a fair trial. Chances are very low, that someone listens. And even lower that your son is released again. He is a danger to the stability of their power."
+  answer_27_text: "You criticize the government in conversations to friends and family in secret. You have to live in constant fear that one of the persons you talk to betrays you for a sack of money."
+  answer_28_text: "You publicly speak against the government and thereby taking the risk to follow your son into prison. Your partner has to care for the other kids alone. There are not many possibilities to earn money."
+  answer_29_text: "You try to hide in your house. You have to ask friends to bring you food. Also, you cannot go to your official work anymore. You try to convince him to leave the forces and to look for another job. You know, that there are few jobs available. Also, the government will interrogate him why he wants to leave. They will suspect that is involved with the 'enemies of the country'. They will try to manipulate him to stay by publicly denouncing him and preventing him from finding a new job. He is likely to betray you."
+  answer_30_text: "You try to hide in your house. You have to ask friends to bring you food. Also, you cannot go to your official work anymore. You try to convince him that you should be allowed to stay in the country. If he receives the order to force you out of the country he most likely will do whatever is best for his family."
+  answer_32_text: "You stop the contact to him and hide somewhere. You and your family cannot stay in your house."
+  answer_34_text: "You tell your friend to hide. When the government asks you about him you say that you haven't seen him in weeks. You risk being suspected to help him. This may be to your and your family's disadvantage in the future."
+  answer_35_text: "You imprison your friend and tell him that it is his own fault. You also tell this to his partner and little daughter."
+  answer_37_text: "You refuse to help them."
+  answer_38_text: "You plan on carrying out the order and briefing your solders the next day. You are convinced that it is the right thing."
+  answer_39_text: "You refuse the order and risk military prison. You will be replaced by a new general which will then carry out the order. Probably more ruthlessly."
+  answer_40_text: "You carry out the order because you are convinced that you can neutralize the rebels without casualties. However, casualties are likely."
+  answer_45_text: "You help developing the program, because you are convinced that it helps your government to catch the bad guys."
+  answer_46_text: "You help developing the program, because you fear negative consequences. You have heard of colleagues, that the government threatened them with their and their families lifes if they refuse. Others reported to have lost their job."
+  answer_47_text: "You refuse to help and risk being put into jail or loosing your job and being brandmarked on the job market."
+  answer_53_text: "You help developing the program and try to sabotage it by making it slow and error-prone. However, in case anyone finds out you risk being imprisoned and put your families lifes in danger."
+  unianswer_36_text: "Other ..."
+  nat_Afghan_name: 'Afghan'
+  nat_Albanian_name: 'Albanian'
+  nat_Algerian_name: 'Algerian'
+  nat_American_name: 'American'
+  nat_Andorran_name: 'Andorran'
+  nat_Angolan_name: 'Angolan'
+  nat_Antiguans_name: 'Antiguans'
+  nat_Argentinean_name: 'Argentinean'
+  nat_Armenian_name: 'Armenian'
+  nat_Australian_name: 'Australian'
+  nat_Austrian_name: 'Austrian'
+  nat_Azerbaijani_name: 'Azerbaijani'
+  nat_Bahamian_name: 'Bahamian'
+  nat_Bahraini_name: 'Bahraini'
+  nat_Bangladeshi_name: 'Bangladeshi'
+  nat_Barbadian_name: 'Barbadian'
+  nat_Barbudans_name: 'Barbudans'
+  nat_Batswana_name: 'Batswana'
+  nat_Belarusian_name: 'Belarusian'
+  nat_Belgian_name: 'Belgian'
+  nat_Belizean_name: 'Belizean'
+  nat_Beninese_name: 'Beninese'
+  nat_Bhutanese_name: 'Bhutanese'
+  nat_Bolivian_name: 'Bolivian'
+  nat_Bosnian_name: 'Bosnian'
+  nat_Brazilian_name: 'Brazilian'
+  nat_British_name: 'British'
+  nat_Bruneian_name: 'Bruneian'
+  nat_Bulgarian_name: 'Bulgarian'
+  nat_Burkinabe_name: 'Burkinabe'
+  nat_Burmese_name: 'Burmese'
+  nat_Burundian_name: 'Burundian'
+  nat_Cambodian_name: 'Cambodian'
+  nat_Cameroonian_name: 'Cameroonian'
+  nat_Canadian_name: 'Canadian'
+  nat_CapeVerdean_name: 'Cape Verdean'
+  nat_CentralAfrican_name: 'Central African'
+  nat_Chadian_name: 'Chadian'
+  nat_Chilean_name: 'Chilean'
+  nat_Chinese_name: 'Chinese'
+  nat_Colombian_name: 'Colombian'
+  nat_Comoran_name: 'Comoran'
+  nat_Congolese_name: 'Congolese'
+  nat_CostaRican_name: 'Costa Rican'
+  nat_Croatian_name: 'Croatian'
+  nat_Cuban_name: 'Cuban'
+  nat_Cypriot_name: 'Cypriot'
+  nat_Czech_name: 'Czech'
+  nat_Danish_name: 'Danish'
+  nat_Djibouti_name: 'Djibouti'
+  nat_Dominican_name: 'Dominican'
+  nat_Dutch_name: 'Dutch'
+  nat_EastTimorese_name: 'East Timorese'
+  nat_Ecuadorean_name: 'Ecuadorean'
+  nat_Egyptian_name: 'Egyptian'
+  nat_Emirian_name: 'Emirian'
+  nat_EquatorialGuinean_name: 'Equatorial Guinean'
+  nat_Eritrean_name: 'Eritrean'
+  nat_Estonian_name: 'Estonian'
+  nat_Ethiopian_name: 'Ethiopian'
+  nat_Fijian_name: 'Fijian'
+  nat_Filipino_name: 'Filipino'
+  nat_Finnish_name: 'Finnish'
+  nat_French_name: 'French'
+  nat_Gabonese_name: 'Gabonese'
+  nat_Gambian_name: 'Gambian'
+  nat_Georgian_name: 'Georgian'
+  nat_German_name: 'German'
+  nat_Ghanaian_name: 'Ghanaian'
+  nat_Greek_name: 'Greek'
+  nat_Grenadian_name: 'Grenadian'
+  nat_Guatemalan_name: 'Guatemalan'
+  nat_GuineaBissauan_name: 'Guinea-Bissauan'
+  nat_Guinean_name: 'Guinean'
+  nat_Guyanese_name: 'Guyanese'
+  nat_Haitian_name: 'Haitian'
+  nat_Herzegovinian_name: 'Herzegovinian'
+  nat_Honduran_name: 'Honduran'
+  nat_Hungarian_name: 'Hungarian'
+  nat_IKiribati_name: 'I-Kiribati'
+  nat_Icelander_name: 'Icelander'
+  nat_Indian_name: 'Indian'
+  nat_Indonesian_name: 'Indonesian'
+  nat_Iranian_name: 'Iranian'
+  nat_Iraqi_name: 'Iraqi'
+  nat_Irish_name: 'Irish'
+  nat_Israeli_name: 'Israeli'
+  nat_Italian_name: 'Italian'
+  nat_Ivorian_name: 'Ivorian'
+  nat_Jamaican_name: 'Jamaican'
+  nat_Japanese_name: 'Japanese'
+  nat_Jordanian_name: 'Jordanian'
+  nat_Kazakhstani_name: 'Kazakhstani'
+  nat_Kenyan_name: 'Kenyan'
+  nat_KittianAndNevisian_name: 'Kittian and Nevisian'
+  nat_Kuwaiti_name: 'Kuwaiti'
+  nat_Kyrgyz_name: 'Kyrgyz'
+  nat_Laotian_name: 'Laotian'
+  nat_Latvian_name: 'Latvian'
+  nat_Lebanese_name: 'Lebanese'
+  nat_Liberian_name: 'Liberian'
+  nat_Libyan_name: 'Libyan'
+  nat_Liechtensteiner_name: 'Liechtensteiner'
+  nat_Lithuanian_name: 'Lithuanian'
+  nat_Luxembourger_name: 'Luxembourger'
+  nat_Macedonian_name: 'Macedonian'
+  nat_Malagasy_name: 'Malagasy'
+  nat_Malawian_name: 'Malawian'
+  nat_Malaysian_name: 'Malaysian'
+  nat_Maldivan_name: 'Maldivan'
+  nat_Malian_name: 'Malian'
+  nat_Maltese_name: 'Maltese'
+  nat_Marshallese_name: 'Marshallese'
+  nat_Mauritanian_name: 'Mauritanian'
+  nat_Mauritian_name: 'Mauritian'
+  nat_Mexican_name: 'Mexican'
+  nat_Micronesian_name: 'Micronesian'
+  nat_Moldovan_name: 'Moldovan'
+  nat_Monacan_name: 'Monacan'
+  nat_Mongolian_name: 'Mongolian'
+  nat_Moroccan_name: 'Moroccan'
+  nat_Mosotho_name: 'Mosotho'
+  nat_Motswana_name: 'Motswana'
+  nat_Mozambican_name: 'Mozambican'
+  nat_Namibian_name: 'Namibian'
+  nat_Nauruan_name: 'Nauruan'
+  nat_Nepalese_name: 'Nepalese'
+  nat_NewZealander_name: 'New Zealander'
+  nat_Nicaraguan_name: 'Nicaraguan'
+  nat_Nigerian_name: 'Nigerian'
+  nat_Nigerien_name: 'Nigerien'
+  nat_NorthKorean_name: 'North Korean'
+  nat_NorthernIrish_name: 'Northern Irish'
+  nat_Norwegian_name: 'Norwegian'
+  nat_Omani_name: 'Omani'
+  nat_Pakistani_name: 'Pakistani'
+  nat_Palauan_name: 'Palauan'
+  nat_Panamanian_name: 'Panamanian'
+  nat_PapuaNewGuinean_name: 'Papua New Guinean'
+  nat_Paraguayan_name: 'Paraguayan'
+  nat_Peruvian_name: 'Peruvian'
+  nat_Polish_name: 'Polish'
+  nat_Portuguese_name: 'Portuguese'
+  nat_Qatari_name: 'Qatari'
+  nat_Romanian_name: 'Romanian'
+  nat_Russian_name: 'Russian'
+  nat_Rwandan_name: 'Rwandan'
+  nat_SaintLucian_name: 'Saint Lucian'
+  nat_Salvadoran_name: 'Salvadoran'
+  nat_Samoan_name: 'Samoan'
+  nat_SanMarinese_name: 'San Marinese'
+  nat_SaoTomean_name: 'Sao Tomean'
+  nat_Saudi_name: 'Saudi'
+  nat_Scottish_name: 'Scottish'
+  nat_Senegalese_name: 'Senegalese'
+  nat_Serbian_name: 'Serbian'
+  nat_Seychellois_name: 'Seychellois'
+  nat_SierraLeonean_name: 'Sierra Leonean'
+  nat_Singaporean_name: 'Singaporean'
+  nat_Slovakian_name: 'Slovakian'
+  nat_Slovenian_name: 'Slovenian'
+  nat_SolomonIslander_name: 'Solomon Islander'
+  nat_Somali_name: 'Somali'
+  nat_SouthAfrican_name: 'South African'
+  nat_SouthKorean_name: 'South Korean'
+  nat_Spanish_name: 'Spanish'
+  nat_SriLankan_name: 'Sri Lankan'
+  nat_Sudanese_name: 'Sudanese'
+  nat_Surinamer_name: 'Surinamer'
+  nat_Swazi_name: 'Swazi'
+  nat_Swedish_name: 'Swedish'
+  nat_Swiss_name: 'Swiss'
+  nat_Syrian_name: 'Syrian'
+  nat_Taiwanese_name: 'Taiwanese'
+  nat_Tajik_name: 'Tajik'
+  nat_Tanzanian_name: 'Tanzanian'
+  nat_Thai_name: 'Thai'
+  nat_Togolese_name: 'Togolese'
+  nat_Tongan_name: 'Tongan'
+  nat_TrinidadianOrTobagonian_name: 'Trinidadian or Tobagonian'
+  nat_Tunisian_name: 'Tunisian'
+  nat_Turkish_name: 'Turkish'
+  nat_Tuvaluan_name: 'Tuvaluan'
+  nat_Ugandan_name: 'Ugandan'
+  nat_Ukrainian_name: 'Ukrainian'
+  nat_Uruguayan_name: 'Uruguayan'
+  nat_Uzbekistani_name: 'Uzbekistani'
+  nat_Venezuelan_name: 'Venezuelan'
+  nat_Vietnamese_name: 'Vietnamese'
+  nat_Welsh_name: 'Welsh'
+  nat_Yemenite_name: 'Yemenite'
+  nat_Zambian_name: 'Zambian'
+  nat_Zimbabwean_name: 'Zimbabwean'
+  cont_0_name: 'South America'
+  cont_1_name: 'Oceania'
+  cont_2_name: 'North America'
+  cont_3_name: 'Europe'
+  cont_4_name: 'Asia'
+  cont_5_name: 'Africa'
+  start_title: 'Welcome to Open Borders!'
+  start_p1: 'With our projects we want to stress that <mark>people from various nations on this planet are not that different</mark>.'
+  start_p2: 'Especially, when it comes to the fundamental needs such as food, water, shelter we are all the same. Thinking in nationalities is normal and gives us safety. The concept of a nationality and nation gives us the feeling to belong to a group, which stands against other groups. Humans need this feeling of identification to not feel alone and work as a "team". You can see it in soccer (teams), in politics (parties), economics (companies, departments, ...) and the list goes on and on ...'
+  start_p3: 'Evolution has made us this way, "survival of the fittest". The strongest survives. And since several together are stronger than individuals, groups emerged.'
+  start_p4: 'This is perfectly fine so far. However, this nation-thinking also bears risks.'
+  start_p5: 'Most of all, we forget that the others are also just humans. And they want the same thing as you: Survive. In all the discussions about the so called "refugee-crisis" taking place in Europe at the moment we felt, that the emotional aspect was mostly neglected. When politicians are talking about refugees, it sounds like some abstract thing with no meaning. But think about it: Every single refugee behind those huge numbers of immigrants stands for one life. Such as yours. With family, or without. With unique characters and personality. Emotions and need for safety.'
+  start_p6: 'We are two (German) guys who want to create awareness for this refugee-mindset-problem in our own way.'
+  start_p7: 'Since we are geeks it made sense to develop this website. To get started navigate to the surveys section.'
+  to_the_surveys: 'To the Surveys'
+  our_surveys: 'Our surveys'
+  take_survey_hint: 'Take a survey by clicking on it. Currently, we "only" have created one survey. :-)'
+  line_p1: 'Finally!'
+  line_p1_1: 'Another human soul around here!'
+  line_p2: "There's really not much going on here... "
+  line_p3: 'Nice to meet you!'
+  line_p4: "I'm <b>Line</b>."
+  line_p4_1: "I live here. Since forever."
+  line_p4_2: "And I rarely have visitors."
+  line_p5: "Hu?"
+  line_p5_1: "Who I am?"
+  line_p6: "Hope you are not expecting great stories about personality ... "
+  line_p6_1: "There's not much to tell about me. Except maybe"
+  line_p6_2: "."
+  line_p6_3: "."
+  line_p6_4: "."
+  line_p6_5: "that I'm a <b>horrible</b> liar!"
+  line_p7: "Why telling you?"
+  line_p8: "Naa, I really don't wanna talk too private here..."
+  line_p8_1: "You never know who's listening..."
+  line_p9: "On the other hand .."
+  line_p9_1: "feels like half a lifetime since I last talked to anyone ... "
+  line_p10: "You trustworthy?"
+  line_p10_1: "Ah, what the heck! Now you are here"
+  line_p10_2: ", so why not!"
+  line_p11: "So, I'm reeeally bad at lying."
+  line_p11_1: "I get twitchy eyes and a trembling voice."
+  line_p11_2: "Just can't keep it in check... And unfortunately"
+  line_p11_3: ", I'm not singing opera."
+  line_p12: "But to be honest, it's not all that bad!"
+  line_p13: "I'm actually quite proud of it. My honesty I mean."
+  line_p14: "You know what they say: Use your weakness as your shield."
+  line_p15: "So what I do is, I just don't lie and instead, I tell people my honest opinion."
+  line_p16: "Brutally."
+  line_p17: "Just in their face."
+  line_p18: "That works pretty well!"
+  line_p19: "Maybe you won't believe it but - ^1000 they are actually thankful for it!"
+  line_p20: "The essence is <b>constructivity</b> - show them that they can improve."
+  line_p20_1: "And how."
+  line_p21: "Not convinced?"
+  line_p22: "Ok."
+  line_p22_1: "Challenge accepted!"
+  line_p22_2: ";-)"
+  line_p23: "Let's play a little game ..."
+  line_p24: "I'll first tell you what I honestly think of you."
+  line_p24_1: "And then I'll make you understand with a little <b>game</b>."
+  line_p25: "You in?"
+  line_p25_1: "Nice!"
+  line_p25_2: "Ready?"
+  line_p25_3: "Good."
+  line_p25_4: "Here we go ..."
+  line_p26: "I think"
+  line_p26_1: "you are a pretty self-aware and reflected person."
+  line_p27: "You are also quite convinced to be tolerant enough with your fellows."
+  line_p28: "You know what is going on in the world."
+  line_p29: "You read the news."
+  line_p30: "And see them in the TV."
+  line_p31: "It's horrible what is going on in Syria."
+  line_p32: "Or Iraq."
+  line_p33: "The so called Islamic State is torturing people."
+  line_p34: "Cutting off people's heads and hanging them publicly."
+  line_p35: 'For not believing in the "right" god.'
+  line_p36: "Of which we <i>don't even know</i> it exists!"
+  line_p37: "It's just horrible!"
+  line_p38: "But."
+  line_p38_1: "But!"
+  line_p40: "I think, you know all this in your head."
+  line_p41: "But you haven't realized what it means emotionally."
+  line_p41_1: "From the human perspective."
+  line_p42: "You haven't realized that when they talk about these things in the news, it actually affects lives of people like you and me."
+  line_p43: "I don't think you <b>empathize</b> with those people."
+  line_p44: "You think because it happens in another country, you are safe."
+  line_p45: "You are detaching yourself emotionally to protect yourself from it."
+  line_p46: "You think this is how you can avoid to do something about it."
+  line_p47: "You hope other's will do it for you."
+  line_p48: "Let me ask you something:"
+  line_p48_1: "If you were living in Syria."
+  line_p48_2: "How would you like the rest of the world to behave?"
+  line_p49: "Watching and doing nothing?"
+  line_p50: "Or publicly speaking against it?"
+  line_p50_1: "Putting pressure on your government to finally put an end to the bombs against the governments own people?"
+  line_p51: "Easy."
+  line_p52: "Right?"
+  line_p53: ";-)"
+  line_p54: "But, I want to be fair."
+  line_p55: "It's difficult to fully <b>empathize</b> with people in such extreme conditions in the western countries."
+  line_p56: "Because it's so peaceful here."
+  line_p57: "And we simply don't know how war feels."
+  line_p58: "Many western countries haven't encountered war for a long time."
+  line_p59: "The younger generation only knows war from movies."
+  line_p59_1: "And games."
+  line_p59_2: "And the stories of their grandparents."
+  line_p60: "So of course it's difficult to realize how those people really feel."
+  line_p61: "But then."
+  line_p61_1: "Just try it for a short moment. "
+  line_p62: "Try to imagine, how it must feel like when you are surrounded by war."
+  line_p63: "People dying around you."
+  line_p63_1: "Every day."
+  line_p64: "Your family is not safe."
+  line_p65: "Your friends are not safe."
+  line_p66: "Your house could be destroyed every day."
+  line_p67: "Chaos lives in the streets of your city."
+  line_p67_1: "And people are using that chaos to their advantage."
+  line_p67_2: "Surpressing good-willed people."
+  line_p67_3: "Who only want to work."
+  line_p67_4: "And live in peace."
+  line_p68: "I think the least of your worries is how Volkswagen manipulates their NOX filters."
+  line_p69: "Or how your stock is developing."
+  line_p70: "Or whether you need a faster PC for the next blockbuster game."
+  line_p71: "So,"
+  line_p71_1: "honestly?"
+  line_p72: "I think you lack <b>awareness</b>."
+  line_p73: "Because you haven't put yourself in the place of a Syrian."
+  line_p74: "Because you lack real empathy for them."
+  line_p75: "Because you keep your emotional distance to it."
+  line_p76: "Awareness, how it must feel to have your own house bombed that you have payed off all your life since you were 23 years old."
+  line_p77: "In which you lived with your wife for 16 years."
+  line_p78: "In which you raised your two kids which are now going to grammar school. "
+  line_p79: "How it must feel to have your religion forbidden by your rightfully elected government in which you believed strongly since you were a teenager and your grandpa told you that grandma is sitting up there and waiting for you."
+  line_p80: "Awareness, how it must feel to loose first your wife and then your younger son."
+  line_p80_1: "And that it is everyday life."
+  line_p80_2: "Almost everyone has lost someone important."
+  line_p81: "Having to flee your own country because your own government makes you and your kids illegal."
+  line_p82: "Having nothing."
+  line_p82_1: "Fighting for your life in cold,"
+  line_p82_2: "without shelter,"
+  line_p82_3: "in countries with other languages."
+  line_p83: "Not knowing where home is."
+  line_p84: "Arriving in a rich and stable country that gives you the hope to get the chance to build up a new life."
+  line_p85: "Realizing that the people you hoped would help you, don't want you in their country. "
+  line_p86: "Don't want to share with you."
+  line_p87: "Spit on you. "
+  line_p88: "Demonstrate against you on the streets."
+  line_p88_1: "Calling you a pig,"
+  line_p88_2: "parasite"
+  line_p88_3: "and worse things."
+  line_p89: "Yes."
+  line_p90: "That's life."
+  line_p91: "Not some game or some drama in the TV."
+  line_p92: "It's <b>real</b> and happens every day."
+  line_p92_1: "For them."
+  line_p93: "They are not different from you."
+  line_p94: "Just unlucky to be born in the wrong place at the wrong time."
+  line_p95: "Awareness."
+  line_p96: "Empathy."
+  line_p97: "Humaneness."
+  line_p98: "Now the fun part."
+  line_p98_1: "Let's play a little game."
+  line_p99: "I'll describe you ten situations."
+  line_p99_1: "And you tell me how you would act."
+  line_p100: "Nothing complex,"
+  line_p100_1: "really."
+  line_p100_2: "But <b>primal</b>."
+  line_p101: "Some situations will be tough."
+  line_p101_1: "So take your time..."
+  line_p102: "The only rule: Be honest."
+  line_p102_1: "To yourself."
+  line_p103: "Don't think about it with your head only. <i>Feel</i>."
+  line_p104: "That's all."
+  line_p105: "And you will see, that I am right."
+  line_p106: "And in the end, there's a little surprise for you. "
+  line_p107: "You will see that you are closer to the Syrian people than you thought."
+  line_p108: "That you are very similar to them in many aspects."
+  line_p109: "Ready?"
+  line_p109_1: "Good!"
+  line_p109_2: 'Let me ask you the <a href="/surveys/0/take_surveys">first question</a> then...'
+  line_intro_skip_to_survey: 'I know what I''m doing! Take me directly to the <a href="/surveys/0/take_surveys">first question</a>.'
+  line_intro_skip_to_summary: 'I have already answered the questions! I want to see the <a href="/surveys/0/summary">statistics</a> again.'
+  survey_statistics: 'The Survey Statistics'
+  correctly_guessed_nationalities: 'Correctly guessed nationalities'
+  correctly_guessed_continents: 'Correctly guessed continents'
+  correctly: 'Correctly'
+  incorrectly: 'Incorrectly'
+  percentage: 'Percentage'
+  result: 'Result'
+  summary: 'Summary'
+  contribute: 'Contribute'
+  contribute_title: 'Help us and contribute'
+  contribute_p1: 'At the moment we are just two guys who are developing and maintaining this project in their free time.'
+  contribute_p2: 'We are looking for more people to join us and realize our ideas <mark>tolerance</mark> project. That includes:'
+  translaters: 'translaters'
+  designers: 'designers'
+  writers: 'writers'
+  programmers: 'programmers'
+  contribute_translators_text: 'to translate our surveys into a manifold of languages, such that we can reach as many people as possible;'
+  contribute_designers_text: 'to illustrate our surveys with sketches to make the project more lively;'
+  contribute_writers_text: 'to come up with new situations, questions and answers; when we wrote the current state of <mark>tolerance</mark> we got inspired by the style of "<a href="http://www.stanleyparable.com/">The Stanley Parable</a>" (Davey Wreden & William Pugh); we would like to keep it that way;'
+  contribute_programmers_text: 'to improve the website;'
+  you_can_find_tolerance_on_github: 'You can find <mark>tolerance</mark> <a href="https://github.com/openborders/tolerance">on GitHub</a>'
+  contact_us: 'Contact us'
+  contact_via_mail: 'You can contact us via mail:'
+  leave_msg_com_github: 'or leave a message / comment on <a href="https://github.com/openborders/tolerance">GitHub</a>.'

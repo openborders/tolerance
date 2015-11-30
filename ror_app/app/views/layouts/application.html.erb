@@ -40,7 +40,7 @@
 
     <nav class="navbar navbar-default navbar-static-top">
       <div class="navbar-header">
-        <a class="navbar-brand" href="/" style="padding-top: 5px;">
+        <a class="navbar-brand" href="<%= url_for controller: :index, action: :index %>" style="padding-top: 5px;">
           <div style="margin-right: 7px; display: inline-block;"><%= image_tag "openborders_logo.png" %></div>Open Borders
           </a>
       </div>
@@ -52,10 +52,10 @@
             <span class="icon-bar"></span>
           </button>
           <ul class="nav navbar-nav">
-            <li><a href="<%= url_for(controller: :surveys, action: :index) %>">To the Surveys</a></li>
-            <li><a href="<%= url_for(controller: :surveys, action: :summary, survey_id: 0) %>">The Survey Statistics</a></li>
-            <li><a href="<%= url_for(controller: :contributes, action: :index) %>">Contribute</a></li>
-            <li><a href="<%= url_for(controller: :contacts, action: :index) %>">Contact us</a></li>
+            <li><a href="<%= url_for(controller: :surveys, action: :index) %>"><%= t('to_the_surveys') %></a></li>
+            <li><a href="<%= url_for(controller: :surveys, action: :summary, survey_id: 0) %>"><%= t('survey_statistics') %></a></li>
+            <li><a href="<%= url_for(controller: :contributes, action: :index) %>"><%= t('contribute') %></a></li>
+            <li><a href="<%= url_for(controller: :contacts, action: :index) %>"><%= t('contact_us') %></a></li>
           </ul>
         </div>
       </div>

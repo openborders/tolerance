@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151109102306) do
+ActiveRecord::Schema.define(version: 20151129155243) do
 
   create_table "answered_questions", force: true do |t|
     t.integer  "question_id"
@@ -36,11 +36,6 @@ ActiveRecord::Schema.define(version: 20151109102306) do
 
   create_table "continents", force: true do |t|
     t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "contributes", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -1,0 +1,210 @@
+de:
+  hello: 'Hallo'
+  summary: 'Zusammenfassung'
+  start_title: 'Willkommen zu Open Borders!'
+  start_p1: 'Mit unserem Projekt möchten wir betonen, dass <mark>Menschen verschiedenster Nationalitäten dieser Erde nicht sehr unterschiedlich sind</mark>.'
+  start_p2: 'Insbesondere, wenn es um fundamentale Bedürfnisse wie Nahrungsmittel, Wasser und ein Dach über dem Kopf geht ticken wir alle sehr ähnlich. In Nationalitäten zu denken ist normal und gibt uns Sicherheit. Das Konzept der Nationalität und Nation gibt uns ein Zugehörigkeitsgefühl zu einer Gruppe, welche sich jedoch im selben Atemzug auch von anderen Gruppen abgrenzt. Menschen haben ein Bedürfnis nach dieser Art der Identifikation, um sich nicht alleine zu fühlen und als Gruppe zu arbeiten. Dieses Prinzip ist in verschiedensten Bereichen zu erkennen: In Fußballmannschaften, in politischen Parteien, in der Wirtschaft (Unternehmen, Abteilungen, ...) und die Liste ist lang.'
+  start_p3: 'Die Evolution hat uns auf diese Art geprägt, und belohnte den Stärksten - "Der Stärkte überlebt". Und da Gruppen stärker sind als Individuen, hat sich dieses Gruppendenken herauskristalisiert.'
+  start_p4: 'Das ist total in Ordnung. Allerdings hat diese Art zu denken auch Nachteile und Risiken.'
+  start_p5: 'Vor allem vergessen wir gerne, dass "die anderen" (also Mitglieder anderer Gruppen), auch nur Menschen sind. Und dass sie die selben Bedürfnisse haben wie wir selbst: Zu Überleben. In den allermeisten Diskussionen über die so genannte "Flüchtlingskrise" fühlten wir diesen Aspekt stark vernachlässigt. Wenn Politiker über Flüchtlinge reden klingt es meist wie ein abstraktes Gebilde ohne Bedeutung. Aber nur mal kurz drüber nachgedacht: Jeder einzelne Flüchtlin hinter dieser riesigen Zahl von Einwanderern steht für ein Leben. So wie deines. Mit Familie, oder ohne. Mit einzigartigem Charakter und Persönlichkeit. Gefühle und Bedürfnis nach Sicherheit.'
+  start_p6: 'Wir sind zwei Deutsche, die zu etwas mehr Bewusstsein über dieses Problem in der Flüchtlingskrisen-Mentalität beitragen möchten.'
+  start_p7: 'Da wir geeks sind, machte es Sinn diese Webseite ins Leben zu rufen. Los geht es im Umfrage-Bereich.'
+  to_the_surveys: 'Umfragen'
+  our_surveys: 'Unsere Umfragen'
+  take_survey_hint: 'Erfahre mehr über eine Umfrage, indem du darauf klickst. Zur Zeit gibt es "nur" eine Umfrage. :-)'
+  line_intro_skip_to_survey: 'Ich weiß was ich tue! Direkt weiter zur ersten Frage <a href="/surveys/0/take_surveys">bitte</a>.'
+  line_intro_skip_to_summary: 'Ich hab die Fragen bereits beantwortet! Ich möchte nochmal die <a href="/surveys/0/summary">Statistiken</a> sehen.'
+
+
+
+
+
+  survey_statistics: 'Umfrage Statistiken'
+  correctly_guessed_nationalities: 'Korrekt getippte Nationalitäten'
+  correctly_guessed_continents: 'Korrekt getippte Kontinente'
+  correctly: 'Korrekt'
+  incorrectly: 'Inkorrekt'
+  percentage: 'Prozent'
+  result: 'Ergebnis'
+  contribute: 'Mach mit!'
+  contribute_title: 'Hilf uns und mach mit!'
+  contribute_p1: 'Zur Zeit betreuen wir diese Webseite und die dazugehörigen Projekte lediglich zu zweit.'
+  contribute_p2: 'Wir sind auf der Suche nach weiteren Freiwilligen, die uns helfen unsere Ideen zu realisieren. Das umfasst:'
+  translaters: 'Übersetzer'
+  designers: 'Designer'
+  writers: 'Schriftsteller'
+  programmers: 'Programmierer'
+  contribute_translators_text: 'die unsere Texte in eine Vielzahl anderer Sprachen übersetzen, sodass wir mit unseren Botschaften mehr Leute erreichen können;'
+  contribute_designers_text: 'um unsere Ideen zu illustrieren und lebendiger zu gestalten;'
+  contribute_writers_text: 'die sich neue Situationen, Fragen und Antworten ausdenken; die jetzige Form von <mark>tolerance</mark> haben wir selbst verfasst wobei wir uns dabei etwas von "<a href="http://www.stanleyparable.com/">The Stanley Parable</a>" haben inspirieren lassen (Davey Wreden & William Pugh); wir würden es gerne so beibehalten;'
+  contribute_programmers_text: 'um die Website zu erweitern und zu verbessern;'
+  you_can_find_tolerance_on_github: '<mark>tolerance</mark> gibt es auf <a href="https://github.com/openborders/tolerance">GitHub</a>'
+  contact_us: 'Schreib'' uns'
+  contact_via_mail: 'Du kannst uns per e-Mail erreichen:'
+  leave_msg_com_github: 'oder schreib uns eine Nachricht / einen Kommentar aufs <a href="https://github.com/openborders/tolerance">GitHub</a>.'
+
+
+  line_p1: 'Endlich!'
+  line_p1_1: 'Eine zweite Menschenseele!'
+  line_p2: "Hier ist wirklich nicht viel los ..."
+  line_p3: 'Schön dich zu treffen!'
+  line_p4: "Ich bin <b>Line</b>."
+  line_p4_1: "Ich lebe hier. Seit Ewigkeiten."
+  line_p4_2: "Und ich habe selten Besuch."
+  line_p5: "Hm?"
+  line_p5_1: "Wer ich bin?"
+  line_p6: "Ich hoffe du erwartest keine starken Geschichten über eine große Persönlichkeit ..."
+  line_p6_1: "Über mich gibt's nicht viel zu erzählen. Außer vielleicht ..."
+  line_p6_2: "."
+  line_p6_3: "."
+  line_p6_4: "."
+  line_p6_5: "dass ich ein <b>schrecklicher</b> Lügner bin!"
+  line_p7: "Du willst mehr wissen?"
+  line_p8: "Nee, ich möchte hier ungern zu privat sprechen ..."
+  line_p8_1: "Du weißt nie, wer zuhört ..."
+  line_p9: "Auf der anderen Seite .."
+  line_p9_1: "es fühlt sich an als hätte ich seit einer halben Ewigkeit mit niemandem mehr gesprochen ... "
+  line_p10: "Hm, aber bist du vertrauenswürdig?"
+  line_p10_1: "Ach, egal! Jetzt bist du hier"
+  line_p10_2: ", also warum nicht!"
+  line_p11: "Also, ich bin richtig schlecht im lügen."
+  line_p11_1: "Ich bekomme Augenzucken und meine Stimme fängt an zu zittern."
+  line_p11_2: "Ich krieg's einfach nicht in den Griff... Und leider"
+  line_p11_3: ", bin ich kein Opernsänger."
+  line_p12: "Aber ehrlich gesagt, es ist gar nicht so schlimm!"
+  line_p13: "Im Prinzip bin ich sogar recht stolz darauf. Meine Ehrlichkeit meine ich."
+  line_p14: "Du weißt was sie sagen: Nutze deine Schwäche als Schild."
+  line_p15: "Also lüge ich einfach nicht und sage Leuten meine ehrliche Meinung."
+  line_p16: "Schmerzlos."
+  line_p17: "Ins Gesicht."
+  line_p18: "Das funktioniert verdammt gut!"
+  line_p19: "Vielleicht glaubst du's mir nicht aber - ^1000 sie sind sogar dankbar dafür!"
+  line_p20: "Die Essenz ist <b>Konstruktivität</b> - zeig ihnen, dass sie sich verbessern können."
+  line_p20_1: "Und wie."
+  line_p21: "Nicht überzeugt?"
+  line_p22: "Ok."
+  line_p22_1: "Herausforderung angeommen!"
+  line_p22_2: ";-)"
+  line_p23: "Lass uns ein kleines Spiel spielen ..."
+  line_p24: "Ich sage dir zuerst ehrlich, was ich von dir halte."
+  line_p24_1: "Und dann werde ich deinem Verstand mit einem <b>Spiel</b> auf die Sprünge helfen."
+  line_p25: "Machst du mit?"
+  line_p25_1: "Schön!"
+  line_p25_2: "Bereit?"
+  line_p25_3: "Git."
+  line_p25_4: "Los geht's ..."
+  line_p26: "Ich glaube"
+  line_p26_1: "du bist eine ziemlich ich-bewusste und reflektierte Person."
+  line_p27: "Du bist auch davon überzeugt, dass du gegenüber deinen Mitmenschen tolerant auftrittst."
+  line_p28: "Du weißt was in der Welt vor sich geht."
+  line_p29: "Du liest die Zeitung."
+  line_p30: "Und schaust dir Nachrichten im TV an."
+  line_p31: "Es ist schrecklich was in Syrien geschieht."
+  line_p32: "Oder im Irak."
+  line_p33: "Der so genannte Islamische Staat foltert Menschen."
+  line_p34: "Schlägt ihnen den Kopf ab und hängt sie öffentlich an den Galgen."
+  line_p35: 'Weil sie nicht in den "richtigen" Gott glauben.'
+  line_p36: "Von dem wir <i>nicht einmal wissen</i> ob er existiert!"
+  line_p37: "Es ist einfach schrecklich!"
+  line_p38: "Aber."
+  line_p38_1: "Aber!"
+  line_p40: "Ich denke, du bist dir dessen im Geiste bewusst."
+  line_p41: "Aber du hast noch nicht realisiert was es emotional bedeutet."
+  line_p41_1: "Aus der menschlichen Perspektive betrachtet."
+  line_p42: "Du hast dir noch nicht klar gemacht, dass wenn über diese in den Nachrichten berichtet wird, es um tatsächlich reale Menschenleben geht."
+  line_p43: "Ich glaube nicht dass du dich in diese Menschen <b>einfühlst</b>."
+  line_p44: "Du denkst, dass du sicher bist weil es in einem anderen Land passiert."
+  line_p45: "Du schottest dich emotional davon ab um dich zu beschützen."
+  line_p46: "Du denkst, dass du auf diese Weise nichts zu unternehmen brauchst."
+  line_p47: "Du hoffst, dass andere es für dich tun werden."
+  line_p48: "Lass mich dir eine Frage stellen:"
+  line_p48_1: "Würdest du in Syrien leben."
+  line_p48_2: "Wie würdest du dir wünschen, würde sich der Rest der Welt verhalten?"
+  line_p49: "Zusehen und nichts tun?"
+  line_p50: "Oder es öffentlich anprangern?"
+  line_p50_1: "Druck auf deine Regierung ausüben um sie endlich dazuzubewegen, keine Bomben mehr auf das eigene Volk abzuwerfen?"
+  line_p51: "Einfach."
+  line_p52: "Richtig?"
+  line_p53: ";-)"
+  line_p54: "Aber, ich möchte fair bleiben."
+  line_p55: "Es ist schwer für jemanden in der westlichen Welt sich in Menschen <b>einzufühlen</b>, die unter solch extremen Bedingungen leben."
+  line_p56: "Weil es hier so friedlich ist."
+  line_p57: "Und wir einfach nicht wissen, wie sich Krieg anfühlt."
+  line_p58: "Viele westliche Nationen haben lange keinen Krieg erfahren."
+  line_p59: "Die jüngeren Generationen kennen ihn nur aus Filmen."
+  line_p59_1: "Und Spielen."
+  line_p59_2: "Und den Geschichten ihrer Großeltern."
+  line_p60: "Also natürlich ist es schwer nachzuvollziehen, wie diese Menschen sich fühlen."
+  line_p61: "Aber dann..."
+  line_p61_1: "Versuch es nur mal für einen kurzen Moment. "
+  line_p62: "Versuche dir vorzustellen, wie es sich anfühlen muss umgeben zu sein von Krieg."
+  line_p63: "Menschen sterben überall um dich herum."
+  line_p63_1: "Jeden Tag."
+  line_p64: "Deine Familie ist nicht sicher."
+  line_p65: "Deine Freunde sind nicht sicher."
+  line_p66: "Dein Haus könnte jeden Tag zerstört werden."
+  line_p67: "Chaos herrscht in den Straßen deiner Stadt."
+  line_p67_1: "Und Menschen nutzen dieses Chaos zu ihrem Vorteil aus."
+  line_p67_2: "Unterdrücken gutmütige Menschen."
+  line_p67_3: "Die nur arbeiten wollen."
+  line_p67_4: "Und in Frieden leben."
+  line_p68: "Ich denke, die kleinste deiner Sorgen wäre, wie Volkswagen ihre NOX-Filter manipuliert."
+  line_p69: "Oder wie deine Aktien sich entwickeln."
+  line_p70: "Oder ob du einen schnelleren PC brauchst für dein neues PC-Spiel."
+  line_p71: "Also,"
+  line_p71_1: "ehrlich?"
+  line_p72: "Ich denke dir fehlt <b>Bewusstsein</b>."
+  line_p73: "Weil du dich nicht in die Lage eines Syrers versetzt hast."
+  line_p74: "Weil du wahre Empathie vermisst."
+  line_p75: "Und dich auf emotionaler Distanz hältst."
+  line_p76: "Bewusstsein, wie es sich anfühlt, dass dein Haus in sich zusammenstürzt dass du abbezahlt hast seit du 23 Jahre alt warst."
+  line_p77: "In dem du mit deiner Frau 16 Jahre lang gelebt hast."
+  line_p78: "In dem du deine zwei Kinder aufgezogen hast, welche bis zuletzt auf's Gymnasium gingen. "
+  line_p79: "Wie es sich anfühlen muss, dass deine Religion verboten wird von deiner demokratisch gewählten Regierung. Deine Religion an die du geglaubt hast seit du ein Teenager warst und dein Großvater dir erzählt hat, dass Großmutter da oben auf euch wartet."
+  line_p80: "Bewusstsein, wie es sich anfühlen muss, erst deine Frau und dann deinen jüngeren Sohn zu verlieren."
+  line_p80_1: "Und dass dies Alltag ist."
+  line_p80_2: "So gut wie jeder hat jemand wichtiges verloren."
+  line_p81: "Dass du dein Land verlassen musst, weil deine Regierung dich und deine Kinder für illegal erklärt."
+  line_p82: "Nichts zu haben."
+  line_p82_1: "In der Kälte um dein Leben zu kämpfen,"
+  line_p82_2: "ohne Schutz,"
+  line_p82_3: "in Ländern in denen andere Sprachen gesprochen werden."
+  line_p83: "Nicht zu wissen, wo 'Zuhause' ist."
+  line_p84: "In einem reichen und stabilen Land anzukommen, welches dir Hoffnung gibt auf eine Chance, dein Leben wieder aufzubauen."
+  line_p85: "Zu realisieren, dass die Menschen von denen du erhofftest, dass sie dir helfen würden, dich nicht in ihrem Land möchten. "
+  line_p86: "Dass sie nicht mit dir teilen möchten."
+  line_p87: "Dass sie auf dich spucken. "
+  line_p88: "In den Straßen gegen dich demonstrieren."
+  line_p88_1: "Dich ein Schwein schimpfen,"
+  line_p88_2: "Schmarotzer"
+  line_p88_3: "und schlimmere Dinge."
+  line_p89: "Ja."
+  line_p90: "Das ist das Leben."
+  line_p91: "Kein Videospiel oder Drama im TV."
+  line_p92: "Es ist <b>real</b> und passiert jeden Tag."
+  line_p92_1: "Für sie."
+  line_p93: "Sie sind nicht anders als du."
+  line_p94: "Sie haben lediglich Pech, zur falschen Zeit am falschen Ort geboren worden zu sein."
+  line_p95: "Bewusstsein."
+  line_p96: "Empathie."
+  line_p97: "Menschlichkeit."
+  line_p98: "Jetzt zum Spaß."
+  line_p98_1: "Lass uns ein kleines Spiel spielen."
+  line_p99: "Ich beschreibe dir zehn Situationen."
+  line_p99_1: "Und du sagst mir, wie du dich verhalten würdest."
+  line_p100: "Nichts kompliziertes,"
+  line_p100_1: "wirklich."
+  line_p100_2: "Aber <b>elementar</b>."
+  line_p101: "Manche Situationen sind schwierig."
+  line_p101_1: "Also nimm dir Zeit ..."
+  line_p102: "Die einzige Regel ist: Sei ehrlich."
+  line_p102_1: "Zu dir selbst."
+  line_p103: "Denke nicht nur mit deinem Kopf. <i>Fühle</i>."
+  line_p104: "Das ist alles."
+  line_p105: "Und du wirst sehen, dass ich Recht habe."
+  line_p106: "Und am Ende wartet eine kleine Überraschung auf dich. "
+  line_p107: "Du wirst sehen, dass du den Syrern ähnlicher bist, als du dachtest."
+  line_p108: "Dass du ihnen in vielen Aspekten sehr, sehr ähnlich bist."
+  line_p109: "Fertig?"
+  line_p109_1: "Gut!"
+  line_p109_2: 'Lass mich dir die <a href="/surveys/0/take_surveys">erste Frage</a> stellen...'

@@ -8,7 +8,7 @@ $(function () {
             type: 'pie'
         },
         title: {
-            text: 'Correctly guessed nationalities'
+            text: '<%= t('correctly_guessed_nationalities') %>'
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -27,13 +27,13 @@ $(function () {
             }
         },
         series: [{
-            name: "Brands",
+            name: "<%= t('percentage') %>",
             colorByPoint: true,
             data: [{
-                name: "Correctly",
+                name: "<%= t('correctly') %>",
                 y: <%= @correctly_guessed %>
             }, {
-                name: "Incorrectly",
+                name: "<%= t('incorrectly') %>",
                 y: <%= @incorrectly_guessed %>
             }]
         }]
@@ -48,7 +48,7 @@ $(function () {
             type: 'pie'
         },
         title: {
-            text: 'Correctly guessed continents'
+            text: '<%= t('correctly_guessed_continents') %>'
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -67,13 +67,13 @@ $(function () {
             }
         },
         series: [{
-            name: "Brands",
+            name: "<%= t :percentage %>",
             colorByPoint: true,
             data: [{
-                name: "Correctly",
+                name: "<%= t('correctly') %>",
                 y: <%= @correctly_guessed_continent %>
             }, {
-                name: "Incorrectly",
+                name: "<%= t('incorrectly') %>",
                 y: <%= @incorrectly_guessed_continent %>
             }]
         }]
@@ -82,7 +82,7 @@ $(function () {
 </script>
 
 <div class="page-header">
-  <h1>Tolerance <small>Summary</small></h1>
+  <h1>Tolerance <small><%= t('summary') %></small></h1>
 </div>
 
 <div class="row">

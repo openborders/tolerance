@@ -1,5 +1,5 @@
 <% content_for :title do %>
-<%= @survey.title %>
+<%= I18n.t @survey.title %>
 <% end %>
 
 <% content_for :subtitle do %>
@@ -8,20 +8,21 @@ Question <%= @questionNumber %>
 
 <% sit = @situation %>
 <div id="situation" class="jumbotron">
-  <p><%= sit.title %></p>
+  <p><%= I18n.t sit.title %></p>
 </div>
 
 <%= form_tag(next_wizard_path, method: :put) do %>
   <% q = @question %>
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title"><%= q.text %></h3>
+      <h3 class="panel-title"><%= I18n.t q.text %></h3>
     </div>
     <div class="panel-body">
       <% i = 0 %>
     	<% for a in q.answers %>
   	  	<%= radio_button_tag(:answer, a.id, i == 0) %>
-        <%= label_tag('answer_' + a.id.to_s, a.text) %><br>
+        <% a_text = I18n.t a.text %>
+        <%= label_tag('answer_' + a.id.to_s, a_text) %><br>
         <% i = i + 1 %>
   	<% end %>
     </div>

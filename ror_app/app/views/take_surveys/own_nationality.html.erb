@@ -21,7 +21,7 @@ Getting to know you
 	    <h3 class="panel-title">What is your nationality?</h3>
 	  </div>
 	  <div class="panel-body">
-	  	<%= select(:user, :nationality_id, options_from_collection_for_select(Nationality.all, :id, :name)) %>
+	  	<%= select(:user, :nationality_id, options_from_collection_for_select(Nationality.all, :id, :translated_name)) %>
 	  </div>
 	</div>
 
