@@ -4,22 +4,22 @@
 		<% end %>
 
 		<% content_for :subtitle do %>
-		The surprise
+		<%= t :the_surprise %>
 		<% end %>
 
 		<p class="lead">
-		<mark>Line: </mark> Interesting answers... thanks!
+		<mark>Line: </mark> <%= raw t :guess_nationality_line_p1 %>
 		<br>
-		<mark>Line: </mark> Now, the surprise. :-)
+		<mark>Line: </mark> <%= raw t :guess_nationality_line_p2 %>
 		<br>
-		<mark>Line: </mark> Just as you answered ten questions, other people have done the same.
+		<mark>Line: </mark> <%= raw t :guess_nationality_line_p3 %>
 		<br>
-		<mark>Line: </mark> I'd like to know the following: Can you guess the nationality of the person that answered the questions (or at least the right continent), only given that persons answers to the questions?
+		<mark>Line: </mark> <%= raw t :guess_nationality_line_p4 %>
 		<br>
 		</p>
 
 		<div class="jumbotron">
-		  <h2>What do you think is the nationality of the person that gave the following answers?</h2>
+		  <h2><%= raw t :guess_nationality_long %></h2>
 		</div>
 
 
@@ -29,11 +29,11 @@
 		  <% sit = q.situation %>
 		  <div class="panel panel-default">
 		    <div class="panel-heading">
-		      <h3 class="panel-title"><%= sit.title %></h3>
+		      <h3 class="panel-title"><%= raw t sit.title %></h3>
 		    </div>
 		    <div class="panel-body">
-		    	Q: <%= q.text %><br>
-		    	A: <%= a.text %>
+		    	Q: <%= raw t q.text %><br>
+		    	A: <%= raw t a.text %>
 		    </div>
 		  </div>
 		<% end %>
@@ -41,18 +41,18 @@
 		<%= form_tag(next_wizard_path, method: :put) do %>
 			<div class="panel panel-default">
 			  <div class="panel-heading">
-			    <h3 class="panel-title">What nationality do you think the person has?</h3>
+			    <h3 class="panel-title"><%= t :guess_nationality %></h3>
 			  </div>
 			  <div class="panel-body">
-			  	<%= select(:user, :nationality_id, options_from_collection_for_select(Nationality.all, :id, :name)) %>
+			  	<%= select(:user, :nationality_id, options_from_collection_for_select(Nationality.all.sort_by {|x| x.translated_name}, :id, :translated_name)) %>
 			  </div>
 			</div>
 
-		  <%= submit_tag("Finish") %>
+		  <%= submit_tag(I18n.translate(:finish)) %>
 		<% end %>
 
 <% else %>
 		<div class="jumbotron">
-		  Thank you for taking the survey!
+		  <%= t :thank_you %>
 		</div>
 <% end %>

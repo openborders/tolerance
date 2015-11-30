@@ -57,6 +57,19 @@
             <li><a href="<%= url_for(controller: :contributes, action: :index) %>"><%= t('contribute') %></a></li>
             <li><a href="<%= url_for(controller: :contacts, action: :index) %>"><%= t('contact_us') %></a></li>
           </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="<%= url_for :controller => params[:controller], :action => params[:action], :locale => 'en' %>">
+                <%= image_tag('england.png') %>
+              </a>
+            </li>
+            <li>
+              <a href="<%= url_for :controller => params[:controller], :action => params[:action], :locale => 'de' %>">
+                <%= image_tag('de.png') %>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

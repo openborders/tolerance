@@ -3,25 +3,25 @@
 <% end %>
 
 <% content_for :subtitle do %>
-Getting to know you
+<%= raw t :getting_to_know_you %>
 <% end %>
 
 <p class="lead">
-	<mark>Line:</mark> As I said, in the end after you told me how you act in these ten critical situations a surprise is waiting for you! :-)
+	<mark>Line:</mark> <%= raw t :own_nat_p1 %>
 	<br>
-	<mark>Line:</mark> But for that to work, I need to know your nationality.
+	<mark>Line:</mark> <%= raw t :own_nat_p2 %>
 	<br>
-	<mark>Line:</mark> This is the only information I need of you. So please be honest!
+	<mark>Line:</mark> <%= raw t :own_nat_p3 %>
 	<br>
-	<mark>Line:</mark> If you are not sure which nationality to pick, pick the one you identify most with or where you grew up.
+	<mark>Line:</mark> <%= raw t :own_nat_p4 %>
 </p>
 <%= form_tag(next_wizard_path, method: :put) do %>
 	<div class="panel panel-default">
 	  <div class="panel-heading">
-	    <h3 class="panel-title">What is your nationality?</h3>
+	    <h3 class="panel-title"><%= raw t :what_is_your_nat %></h3>
 	  </div>
 	  <div class="panel-body">
-	  	<%= select(:user, :nationality_id, options_from_collection_for_select(Nationality.all, :id, :translated_name)) %>
+	  	<%= select(:user, :nationality_id, options_from_collection_for_select(Nationality.all.sort_by {|x| x.translated_name}, :id, :translated_name)) %>
 	  </div>
 	</div>
 

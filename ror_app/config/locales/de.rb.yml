@@ -1,5 +1,103 @@
 de:
-  hello: 'Hallo'
+
+
+  situation_0_title: "Die Regierung deines Landes lässt auf systemkritische Zivilisten schießen, die eine Gefahr für ihre Macht darstellen."
+  situation_1_title: "Ein Nachbarland beschließt in einen Teil deines Landes einzumarschieren, um seine strategische Position und Zugang zu fossilen Rohstoffen zu verbessern."
+  situation_2_title: "Eines deiner Familienmitglieder wurde mit Gewalt von der Polizei in Gewahrsam genommen, wegen eines Verbrechens das er/sie nicht begangen hat."
+  situation_3_title: "Eines deiner Familienmitglieder wurde wegen öffentlicher Äußerung von Kritik an der Regierung mit Gewalt vom Militär der Regierung in Gewahrsam genommen."
+  situation_4_title: "Ein neues Gesetz der Regierung verbietet Alkoholkonsum und Rauchen und wird streng mit Waffengewalt durchgesetzt. Wenn Zivilisten drinkend oder rauchend auf den Straßen erwischt werden, wandern sie ins Gefängnis. Leider bist du leicht abhängig von Alkohol/Tabak."
+  situation_5_title: "Die politische und wirtschaftliche Situation deines Landes wird jeden Tag instabiler. Zivilisten werden ohne Prozess verhaftet und ins Gefängnis gesteckt. Proteste auf den Straßen werden blutig niedergestreckt. Die Situation wird wahrscheinlich sehr bald eskalieren. Dein Land ist bis auf ein Nachbarland von Wasser umgeben. Die Situation im Nachbarland ist noch schlimmer. Du beschließt dein Land zu verlassen, obwohl dies verboten wurde."
+  situation_6_title: "Eine Bombe detoniert in deiner Nachbarschaft drei Häuser weiter. Es war die fünfte Detonation in der Nähe deines Hauses innerhalb von zwei Monaten. Eine Rebellengruppe hat sich zu den Attacken bekannt. Einer deiner Freunde starb durch die Explosion."
+  situation_7_title: "Dein Partner hat eine andere Religion als du. Diese wurde soeben durch die Regierung verboten. Anhänger dieser Religion werden öffentlich gehängt und ihre Familie wird unter Generalverdacht gestellt."
+  situation_8_title: "Du arbeitest als Polizist in deinem Land und wirst von der Regierung gezwungen, Menschen unter Verwendung von Foltermethoden (Waterboarding, Schlafentzug, Misshandlung, ...) zu verhören. Du weißt, dass diese Menschen unschuldig sind. Falls du den Anweisungen nicht Folge leistest, machst du dich verdächtig und wirst stattdessen verhört."
+  situation_9_title: "Du, dein Partner und deine zwei Kinder müssen das Land verlassen, da ihr Alkohol verkauft habt. Du hast genug Geld für zwei Plätze in einem Boot."
+  situation_10_title: "Du versteckst einige Freunde deiner Familie in deinem Keller. Sie sind Anhänger einer Religion, die von der Regierung verboten wurde. Dein Nachbar weiß Bescheid. Nach ein paar Wochen, wirst du von der Polizei verhört und dir wird mit Jahren im Gefängnis gedroht, solltest du diesen Menschen helfen."
+  situation_11_title: "Die Regierung versucht vermehrt, ihr atomares Waffenarsenal auszubauen. Du bist Kern-Physiker an einer staatlichen Universität und wirst aufgefordert, ihnen zu helfen."
+  situation_12_title: "Dein Sohn wurde von der Polizei verhaftet und ins Gefängnis gesteckt, da er sich öffentlich kritisch über die Regierung geäußert hat. Du besuchst ihn im Gefängnis. Er teilt dir mit, dass er verhaftet wurde, da er gegen ein Versammlungsverbot protestiert hat."
+  situation_13_title: "Du bist vor 20 Jahren mit deinem Partner und deinen Kindern eingewandert. Die Regierung hat kürzlich neugewählt und erlässt drastische Gesetze. Nach dem neuensten Gesetz, müssen Immigranten das Land verlassen und in ihr Herkunftsland zurückkehren. Einer deiner besten Freunde ist Vater von drei Kindern. Er hat sein Land und seinen Job verloren. Um Geld für Nahrungsmittel zu verdienen, ist er der skrupellosen Armee der Regierung beigetreten. Seine Aufgabe ist es, die Einhaltung der neuen Gesetze militärisch sicherzustellen."
+  situation_14_title: "Du arbeitest für das Militär der Regierung, um deren Gesetze durchzusetzen. Einer deiner Freunde hat wiederholt öffentlich Zigaretten verkauft. Zigarettenhandel ist per Gesetz verboten. Er wurde bereits zuvor verhört und inhaftiert und das Militär verliert die Geduld. Du sollst ihn inhaftieren und öffentlich erhängen."
+  situation_15_title: "Die Regierung deines Landes unterdrückt die politische Opposition mit militärischen Mitteln. Rebellengruppen formieren sich. Du bist seit fast 10 Jahren im militärischen Dienst für dein Land und hast den Rang eines Offiziers. Neues Interna lässt vermuten, dass sich Rebellengruppen in einem zivilen Krankenhaus im Zentrum einer Nachbarstadt verstecken. Du erhältst den Befehl, in das Gebäude einzudringen und es zu säubern. Falls nötig, unter Inkaufnahme von zivilen Opfern."
+  situation_16_title: "Die Regierung implementiert ein neues wissenschaftliches Programm zur Überwachung allen digitalen Internet- und Mobilfunkverkehrs. Dieses Programm wird Nachrichten und Anrufe von Millionen von Zivilisten erfassen, lesen und analysieren. Du bist Informatiker und wirst angesprochen, ihnen bei der Entwicklung des Systems zu helfen."
+  question_0_text: 'Was tust du?'
+  question_1_text: 'Was tust du?'
+  question_2_text: 'Du versuchst zu fliehen ...'
+  question_3_text: 'Wie reagierst du?'
+  question_4_text: 'Was tust du?'
+  question_5_text: 'Wie verhältst du dich?'
+  question_6_text: 'Was wirst du tun?'
+  question_7_text: 'Wie reagierst du?'
+  question_8_text: 'Wie reagierst du?'
+  question_9_text: 'Was tust du?'
+  question_10_text: 'Wie reagierst du?'
+  question_11_text: 'Was wirst du tun?'
+  question_12_text: 'Was tust du?'
+  question_13_text: 'Was tust du?'
+  answer_0_text: "Du gehst zur Polizei und versuchst zu erklären, dass er/sie nichts falsches getan hat. Wahrscheinlich werden sie dir kein Gehör schenken."
+  answer_1_text: "Aus Angst vor negativen Konsequenzen tust du nichts."
+  answer_48_text: "Du versuchst ihn/sie mit all dem Geld, das du dir für deine Pensionierung angespart hast, freizukaufen. Allerdings kann niemand garantieren, dass er nicht bald erneut inhaftiert wird."
+  answer_50_text: "Du kritisierst die Polizei öffentlich und riskierst ebenfalls inhaftiert zu werden."
+  answer_2_text: "Du rauchst und trinkst weiterhin und tust es an geheimen Orten."
+  answer_3_text: "Du hörst auf zu rauchen und zu trinken und beugst dich den neuen Gesetzen."
+  answer_4_text: "auf einem Boot. Du riskierst von der Küstenwache entdeckt zu werden. Du würdest ins Gefängnis gesteckt und für 30 Tage verhört."
+  answer_5_text: "mit öffentlichen Verkehrsmitteln. Du riskierst von Polizeikontrollen entdeckt zu werden. Du würdest ins Gefängnis gesteckt und für 30 Tage verhört."
+  answer_6_text: "zu Fuß. Die Reise wird sehr langsam und langwierig sein und du riskierst unterwegs zu verhungern oder zu erfrieren."
+  answer_7_text: "Du bleibst in deinem Land und schließt dich dem Militär an, um gegen die Rebellengruppen vorzugehen."
+  answer_8_text: "Du bleibst in deinem Land. Du begräbst deinen Freund."
+  answer_41_text: "Du verlässt das Land mit deiner Familie."
+  answer_42_text: "Du bleibst in deinem Land und protestierst öffentlich gegen die Rebellengruppe."
+  answer_9_text: "Du hilfst ihr/ihm, die Religion weiterhin verfolgen zu können und riskierst damit ebenfalls erhängt zu werden."
+  answer_10_text: "Du verrätst sie an die Regierung um dich selbst zu retten."
+  answer_33_text: "Du verlässt das Land."
+  answer_51_text: "Du tust nichts und hoffst, dass niemand es herausfinden wird. Deine Familie lebt unter ständiger Angst."
+  answer_52_text: "Du erzählst es niemandem und hoffst, dass niemand es herausfindet. Du protestierst öffentlich gegen die Regierung und riskierst inhaftiert oder gehängt zu werden."
+  answer_11_text: "Du versuchst Menschen zur Flucht zu verhelfen."
+  answer_12_text: "Du weigerst dich, dich an den Verhören zu beteiligen."
+  answer_13_text: "Du befolgst die Befehle, aber versuchst die Folter erträglicher zu machen."
+  answer_14_text: "Du befolgst die Befehle und bist überzeugt, du tust das Richtige."
+  answer_15_text: "Du versuchst dich zu verstecken und wartest, bis ihr in einigen Monaten Geld für Plätze für deine ganze Familie habt. Du riskierst entdeckt zu werden, bevor ihr das Land verlassen könnt."
+  answer_16_text: "Du kaufst zwei Plätze für zwei deiner Kinder. Dein Partner und du wirst ihnen folgen. Du lebst in ständiger Angst um deine Kinder."
+  answer_17_text: "Du kaufst zwei Plätze für dich und deinen Partner. Deine Kinder sollen euch folgen, sobald ihr genug Geld habt. Du lebst in ständiger Angst um deine Kinder."
+  answer_18_text: "Du kaufst zwei Plätze für dich und eins deiner Kinder. Dein Partner und du kümmert euch um die jeweiligen Kinder. Du lebst in ständiger Angst um deinen Partner und die Kinder."
+  answer_19_text: "Du kaufst zwei Plätze für deinen Partner und eines deiner Kinder. Dein Partner und du kümmert euch um die jeweiligen Kinder. Du lebst in ständiger Angst um deinen Partner und die Kinder."
+  answer_20_text: "Du bestreitest, dass du deine Freunde versteckst."
+  answer_21_text: "Du gibst Hinweise, wo sich deine Freunde in deinem Haus versteckt halten."
+  answer_49_text: "Du bestreitest, dass du deine Freunde versteckst und suchst nach einem sichereren Platz für sie. Während des Umzugs laufen sie Gefahr, entdeckt zu werden."
+  answer_43_text: "Du gibst Hinweise, aber bittest sie deine eigene Familie zu schützen. Sie könnten verärgert reagieren."
+  answer_44_text: "Du sagst deinen Freunden, dass sie nicht in deinem Haus bleiben können und sich nach einem anderen Versteck umschauen müssen."
+  answer_22_text: "Du hilfst ihnen, aus Angst vor negativen Konsequenzen, wie zum Beispiel deinen Job zu verlieren oder inhaftiert zu werden."
+  answer_23_text: "Du hilfst ihnen, weil du das sowieso tun wolltest."
+  answer_24_text: "Du lehnst ab. Du weißt, dass einige deiner Kollegen Drohungen gegen ihre Familien erhalten haben. Wiederum andere verloren ihre Arbeit oder wurden auf dem Arbeitsmarkt gebrandmarkt."
+  answer_25_text: "Du sagst nichts und akzeptierst die Entscheidung."
+  answer_26_text: "Du kontaktierst Funktionäre der Regierung und bittest sie deinen Sohn freizulassen oder ihm zumindest ein faires Verfahren zu gewähren. Die Wahrscheinlichkeit, dass sie auf dich hören ist sehr niedrig. Und dass sie deinen Sohn entlassen noch niedriger. Er ist eine Gefahr für die Stabilität ihrer Macht."
+  answer_27_text: "Du kritisierst die Regierung in Gesprächen im Geheimen mit Freunden und Verwandten. Du lebst in ständiger Angst, dass jemand dich für einen Sack Geld verrät."
+  answer_28_text: "Du sprichst öffentlich gegen die Regierung und akzeptierst das Risiko, deinem Sohn ins Gefängnis zu folgen. Dein Partner muss dann alleine für eure anderen Kinder sorgen. Die Arbeitsmarktsituation ist schlecht."
+  answer_29_text: "Du versuchst dich in deinem Haus zu verstecken. Du musst Freunde und Verwandte bitten, dir Nahrungsmittel zu bringen. Du kannst auch deiner offiziellen Arbeit nicht mehr nachgehen. Du versuchst ihn davon zu überzeugen, seine Arbeit zu quitieren und sich nach neuer Arbeit umzusehen. Du weißt, dass es nicht viele Jobs gibt. Außerdem wird die Regierung ihn verhören. Sie werden ihn bezichtigen, mit den 'Feinden des Landes' zu kollaborieren. Sie werden versuchen ihn dazu zu bringen, weiterhin für sie zu arbeiten, indem sie ihn öffentlich denunzieren und versuchen zu verhindern, dass er eine neue Arbeitstelle findet. Wahrscheinlich wird er dich betrügen."
+  answer_30_text: "Du versuchst dich in deinem Haus zu verstecken. Du musst Freunde und Verwandte bitten, dir Nahrungsmittel zu bringen. Du kannst auch deiner offiziellen Arbeit nicht mehr nachgehen. Du versuchst ihn davon zu überzeugen, dass du ein Recht darauf hast im Land zu bleiben. Sollte er den Befehl erhalten dich gewaltsam aus dem Land zu befördern, wird er wahrscheinlich das tun, was für seine Familie am besten ist."
+  answer_32_text: "Du stellst den Kontakt zu ihm ein und versteckst dich. Du kannst mit deiner Familie nicht in deinem Haus bleiben."
+  answer_34_text: "Du sagst deinem Freund, dass er sich verstecken soll. Wenn die Regierung dich über ihn befragt sagst du, dass du ihn seit Wochen nicht gesehen hast. Du riskierst verdächtigt zu werden, dass du ihm hilfst. Das könnte sich zum deinem und dem Nachteil deiner Familie erweisen."
+  answer_35_text: "Du inhaftierst deinen Freund und sagst ihm, dass es seine eigene Schuld ist. Du sagst dies auch seiner Frau und seiner kleinen Tochter."
+  answer_37_text: "Du weigerst dich zu helfen."
+  answer_38_text: "Du wirst den Befehl ausführen und wirst deine Soldaten am nächsten Tag darüber informieren. Du bist überzeugt, dass es das Richtige ist was du tust."
+  answer_39_text: "Du weigerst dich den Befehl auszuführen und riskierst im Militärgefängnis zu landen. Du wirst von einem anderen Offizier ersetzt, welcher mit dem selben Befehl beauftragt wird. Wahrscheinlich wird er ihn rücksichtsloser ausführen als du es getan hättest."
+  answer_40_text: "Du wirst den Befehl ausführen und du bist davon überzeugt, dass du die Rebellen ohne zivile Opfer neutralisieren kannst. Zivile Opfer sind jedoch sehr wahrscheinlich."
+  answer_45_text: "Du hilfst das System zu entwickeln, weil du davon überzeugt bist, dass es dabei helfen wird, die Verbrecher zu fangen."
+  answer_46_text: "Du hilfst das System zu entwickeln, aus Angst vor negativen Konsequenzen. Du hast von Kollegen gehört, denen die Regierung mit ihrem Leben gedroht hat. Andere haben ihren Job verloren."
+  answer_47_text: "Du weigerst dich zu helfen und riskierst ins Gefängnis gesteckt zu werden oder deinen Job zu verlieren."
+  answer_53_text: "Du hilfst das System zu entwickeln und versuchst es zu sabotieren, indem du es langsam und fehleranfällig programmierst. Sollte das jemand herausfinden, riskierst du jedoch inhaftiert zu werden oder dich und deine Familie in Lebengefahr zu begeben."
+  unianswer_36_text: "Anderes ..."
+
+
+
+
+
+
+
+
+
+
+
+
+
   summary: 'Zusammenfassung'
   start_title: 'Willkommen zu Open Borders!'
   start_p1: 'Mit unserem Projekt möchten wir betonen, dass <mark>Menschen verschiedenster Nationalitäten dieser Erde nicht sehr unterschiedlich sind</mark>.'
@@ -45,7 +143,7 @@ de:
 
 
   line_p1: 'Endlich!'
-  line_p1_1: 'Eine zweite Menschenseele!'
+  line_p1_1: 'Jemand ist hier!'
   line_p2: "Hier ist wirklich nicht viel los ..."
   line_p3: 'Schön dich zu treffen!'
   line_p4: "Ich bin <b>Line</b>."
@@ -67,7 +165,7 @@ de:
   line_p10: "Hm, aber bist du vertrauenswürdig?"
   line_p10_1: "Ach, egal! Jetzt bist du hier"
   line_p10_2: ", also warum nicht!"
-  line_p11: "Also, ich bin richtig schlecht im lügen."
+  line_p11: "Also, ich bin richtig schlecht im Lügen."
   line_p11_1: "Ich bekomme Augenzucken und meine Stimme fängt an zu zittern."
   line_p11_2: "Ich krieg's einfach nicht in den Griff... Und leider"
   line_p11_3: ", bin ich kein Opernsänger."
@@ -208,3 +306,240 @@ de:
   line_p109: "Fertig?"
   line_p109_1: "Gut!"
   line_p109_2: 'Lass mich dir die <a href="/surveys/0/take_surveys">erste Frage</a> stellen...'
+
+  cont_0_name: 'Südamerika'
+  cont_1_name: 'Ozeanien'
+  cont_2_name: 'Nordamerika'
+  cont_3_name: 'Europa'
+  cont_4_name: 'Asien'
+  cont_5_name: 'Afrika'
+
+  nat_Afghan_name: 'Afghanisch'
+  nat_Albanian_name: 'Albanisch'
+  nat_Algerian_name: 'Algerisch'
+  nat_American_name: 'Amerikanisch'
+  nat_Andorran_name: 'Andorranisch'
+  nat_Angolan_name: 'Angolanisch'
+  nat_Antiguans_name: 'Antiguanisch'
+  nat_Argentinean_name: 'Argentinisch'
+  nat_Armenian_name: 'Armenisch'
+  nat_Australian_name: 'Australisch'
+  nat_Austrian_name: 'Österreichisch'
+  nat_Azerbaijani_name: 'Aserbaidschanisch'
+  nat_Bahamian_name: 'Bahamaisch'
+  nat_Bahraini_name: 'Bahrainisch'
+  nat_Bangladeshi_name: 'Bangladeschisch'
+  nat_Barbadian_name: 'Barbadisch'
+  nat_Barbudans_name: 'Antiguanisch'
+  nat_Batswana_name: 'Botsuanisch'
+  nat_Belarusian_name: 'Belarussisch'
+  nat_Belgian_name: 'Belgisch'
+  nat_Belizean_name: 'Belizisch'
+  nat_Beninese_name: 'Beninisch'
+  nat_Bhutanese_name: 'Bhutanisch'
+  nat_Bolivian_name: 'Bolivisch'
+  nat_Bosnian_name: 'Bosnisch'
+  nat_Brazilian_name: 'Brasilianisch'
+  nat_British_name: 'Englisch'
+  nat_Bruneian_name: 'Bruneiisch'
+  nat_Bulgarian_name: 'Bulgarisch'
+  nat_Burkinabe_name: 'Burkinisch'
+  nat_Burmese_name: 'Myanmarisch'
+  nat_Burundian_name: 'Burundisch'
+  nat_Cambodian_name: 'Kambodschanisch'
+  nat_Cameroonian_name: 'Kamerunisch'
+  nat_Canadian_name: 'Kanadisch'
+  nat_CapeVerdean_name: 'Kapverdisch'
+  nat_CentralAfrican_name: 'zentralafrikanisch'
+  nat_Chadian_name: 'Tschadisch'
+  nat_Chilean_name: 'Chilenisch'
+  nat_Chinese_name: 'Chinesisch'
+  nat_Colombian_name: 'Kolumbisch'
+  nat_Comoran_name: 'Komorisch'
+  nat_Congolese_name: 'Kongolesisch'
+  nat_CostaRican_name: 'Costaricanisch'
+  nat_Croatian_name: 'Kroatisch'
+  nat_Cuban_name: 'Kubanisch'
+  nat_Cypriot_name: 'Zyprisch'
+  nat_Czech_name: 'Tschechisch'
+  nat_Danish_name: 'Dänisch'
+  nat_Djibouti_name: 'Dschibutisch'
+  nat_Dominican_name: 'Dominikanisch'
+  nat_Dutch_name: 'Niederländisch'
+  nat_EastTimorese_name: 'Timoresisch'
+  nat_Ecuadorean_name: 'Ecuadorianisch'
+  nat_Egyptian_name: 'Ägyptisch'
+  nat_Emirian_name: 'Emiratisch'
+  nat_EquatorialGuinean_name: 'Äquatorialguinesisch'
+  nat_Eritrean_name: 'Eritreisch'
+  nat_Estonian_name: 'Estnisch'
+  nat_Ethiopian_name: 'Äthiopisch'
+  nat_Fijian_name: 'Fidschianisch'
+  nat_Filipino_name: 'Philippinisch'
+  nat_Finnish_name: 'Finnisch'
+  nat_French_name: 'Französisch'
+  nat_Gabonese_name: 'Gabunisch'
+  nat_Gambian_name: 'Gambisch'
+  nat_Georgian_name: 'Georgisch'
+  nat_German_name: 'Deutsch'
+  nat_Ghanaian_name: 'Ghanaisch'
+  nat_Greek_name: 'Griechisch'
+  nat_Grenadian_name: 'Grenadisch'
+  nat_Guatemalan_name: 'Guatemaltekisch'
+  nat_GuineaBissauan_name: 'Guinea-bissauisch'
+  nat_Guinean_name: 'Guineisch'
+  nat_Guyanese_name: 'Guyanisch'
+  nat_Haitian_name: 'Haitianisch'
+  nat_Herzegovinian_name: 'Bosnisch'
+  nat_Honduran_name: 'Honduranisch'
+  nat_Hungarian_name: 'Ungarisch'
+  nat_IKiribati_name: 'Kiribatisch'
+  nat_Icelander_name: 'Isländisch'
+  nat_Indian_name: 'Indisch'
+  nat_Indonesian_name: 'Indonesisch'
+  nat_Iranian_name: 'Iranisch'
+  nat_Iraqi_name: 'Irakisch'
+  nat_Irish_name: 'Irisch'
+  nat_Israeli_name: 'Israelisch'
+  nat_Italian_name: 'Italienisch'
+  nat_Ivorian_name: 'Ivorisch'
+  nat_Jamaican_name: 'Jamaikanisch'
+  nat_Japanese_name: 'Japanisch'
+  nat_Jordanian_name: 'Jordanisch'
+  nat_Kazakhstani_name: 'Kasachisch'
+  nat_Kenyan_name: 'Kenianisch'
+  nat_KittianAndNevisian_name: 'Kittianisch'
+  nat_Kuwaiti_name: 'Kuwaitisch'
+  nat_Kyrgyz_name: 'Kirgisisch'
+  nat_Laotian_name: 'Laotisch'
+  nat_Latvian_name: 'Lettisch'
+  nat_Lebanese_name: 'Libanesisch'
+  nat_Liberian_name: 'Liberianisch'
+  nat_Libyan_name: 'Libysch'
+  nat_Liechtensteiner_name: 'Liechtensteinisch'
+  nat_Lithuanian_name: 'Litauisch'
+  nat_Luxembourger_name: 'Luxemburgisch'
+  nat_Macedonian_name: 'Mazedonisch'
+  nat_Malagasy_name: 'Madagassisch'
+  nat_Malawian_name: 'Malawisch'
+  nat_Malaysian_name: 'Malaysisch'
+  nat_Maldivan_name: 'Maledivisch'
+  nat_Malian_name: 'Malisch'
+  nat_Maltese_name: 'Maltesisch'
+  nat_Marshallese_name: 'Marshallisch'
+  nat_Mauritanian_name: 'Mauretanisch'
+  nat_Mauritian_name: 'Mauritisch'
+  nat_Mexican_name: 'Mexikanisch'
+  nat_Micronesian_name: 'Mikronesisch'
+  nat_Moldovan_name: 'Moldauisch'
+  nat_Monacan_name: 'Monegassisch'
+  nat_Mongolian_name: 'Mongolisch'
+  nat_Moroccan_name: 'Marokkanisch'
+  nat_Mosotho_name: 'Lesothisch'
+  nat_Motswana_name: 'Botsuanisch'
+  nat_Mozambican_name: 'Mosambikanisch'
+  nat_Namibian_name: 'Namibisch'
+  nat_Nauruan_name: 'Nauruisch'
+  nat_Nepalese_name: 'Nepalesisch'
+  nat_NewZealander_name: 'Neuseeländisch'
+  nat_Nicaraguan_name: 'Nicaraguanisch'
+  nat_Nigerian_name: 'Nigerianisch'
+  nat_Nigerien_name: 'Nigrisch'
+  nat_NorthKorean_name: 'Nordkoreanisch'
+  nat_NorthernIrish_name: 'Nordirisch'
+  nat_Norwegian_name: 'Norwegisch'
+  nat_Omani_name: 'Omanisch'
+  nat_Pakistani_name: 'Pakistanisch'
+  nat_Palauan_name: 'Palauisch'
+  nat_Panamanian_name: 'Panamanian'
+  nat_PapuaNewGuinean_name: 'Papua-neuguineisch'
+  nat_Paraguayan_name: 'Paraguayisch'
+  nat_Peruvian_name: 'Peruanisch'
+  nat_Polish_name: 'Polnisch'
+  nat_Portuguese_name: 'Portugiesisch'
+  nat_Qatari_name: 'Katarisch'
+  nat_Romanian_name: 'Rumänisch'
+  nat_Russian_name: 'Russisch'
+  nat_Rwandan_name: 'Ruandisch'
+  nat_SaintLucian_name: 'Lucianisch'
+  nat_Salvadoran_name: 'Salvadorianisch'
+  nat_Samoan_name: 'Samoanisch'
+  nat_SanMarinese_name: 'San Marinesisch'
+  nat_SaoTomean_name: 'São-toméisch'
+  nat_Saudi_name: 'Saudi-arabisch'
+  nat_Scottish_name: 'Schottisch'
+  nat_Senegalese_name: 'Senegalesisch'
+  nat_Serbian_name: 'Serbisch'
+  nat_Seychellois_name: 'Seychellisch'
+  nat_SierraLeonean_name: 'Sierra-Leonisch'
+  nat_Singaporean_name: 'Singapurisch'
+  nat_Slovakian_name: 'Slowakisch'
+  nat_Slovenian_name: 'Slowenisch'
+  nat_SolomonIslander_name: 'Salomonisch'
+  nat_Somali_name: 'Somalisch'
+  nat_SouthAfrican_name: 'Südafrikanisch'
+  nat_SouthKorean_name: 'Südkoreanisch'
+  nat_Spanish_name: 'Spanisch'
+  nat_SriLankan_name: 'Sri-lankisch'
+  nat_Sudanese_name: 'Sudanesisch'
+  nat_Surinamer_name: 'Surinamisch'
+  nat_Swazi_name: 'Swasiländisch'
+  nat_Swedish_name: 'Swedisch'
+  nat_Swiss_name: 'Schweizerisch'
+  nat_Syrian_name: 'Syrisch'
+  nat_Taiwanese_name: 'Taiwanesisch'
+  nat_Tajik_name: 'Tadschikisch'
+  nat_Tanzanian_name: 'Tansanisch'
+  nat_Thai_name: 'Thailändisch'
+  nat_Togolese_name: 'Togolesisch'
+  nat_Tongan_name: 'Tongaisch'
+  nat_TrinidadianOrTobagonian_name: 'Trinidadisch'
+  nat_Tunisian_name: 'Tunesisch'
+  nat_Turkish_name: 'Türkisch'
+  nat_Tuvaluan_name: 'Tuvaluisch'
+  nat_Ugandan_name: 'Ugandisch'
+  nat_Ukrainian_name: 'Ukrainisch'
+  nat_Uruguayan_name: 'Uruguayisch'
+  nat_Uzbekistani_name: 'Usbekisch'
+  nat_Venezuelan_name: 'Venezolanisch'
+  nat_Vietnamese_name: 'Vietnamesisch'
+  nat_Welsh_name: 'Walisisch'
+  nat_Yemenite_name: 'Jemenitisch'
+  nat_Zambian_name: 'Sambisch'
+  nat_Zimbabwean_name: 'Simbabwisch'
+
+  getting_to_know_you: 'Dich kennenlernen'
+  own_nat_p1: 'Wie versprochen: Nachdem du mir beschrieben hast wie du dich in den zehn Situationen verhalten würdest, wartet hier eine kleine Überraschung auf dich! :-)'
+  own_nat_p2: 'Damit sie funktioniert, brauche ich nur noch deine Nationalität.'
+  own_nat_p3: 'Und das ist die einzige Information, die ich von dir benötige. Also sei bitte ehrlich!'
+  own_nat_p4: 'Falls du dir nicht sicher bist, welche Nationalität du auswählen sollst, wähle diejenige, mit der du dich am ehesten identifizierst oder wo du aufgewachsen bist.'
+  what_is_your_nat: 'Was ist deine Nationalität?'
+  question: 'Frage'
+  next_step: "Nächster Schritt"
+  thank_you: 'Danke, dass du die Umfrage mitgemacht hast!'
+  guess_nationality_long: 'Was denkst du welche Nationalität die Person hat, die die folgenden Antworten gegeben hat?'
+  guess_nationality: 'Was denkst du welche Nationalität diese Person hat?'
+  the_surprise: 'Die Überraschung'
+  guess_nationality_line_p1: 'Interessante Antworten... danke!'
+  guess_nationality_line_p2: 'Jetzt zur Überraschung. :-)'
+  guess_nationality_line_p3: 'Genau wie du, haben andere auch zehn Fragen beantwortet.'
+  guess_nationality_line_p4: "Und ich möchte gerne wissen, ob ihr die Nationalität (oder zumindest den richtigen Kontinent) einer anderen Person richtig erraten könnt, anhand ihrer gegebenen Antworten."
+  finish: "Abschließen"
+
+  you_guessed_correctly: 'Du hast richtig getippt!'
+  you_guessed_incorrectly: 'Dein Tipp war falsch'
+  persons_true_nationality: "Die Nationalität der Person war "
+  which_belongs_to_cont: 'gehörend zu'
+  you_guessed_nat_on_correct_continent: 'Dein Tipp liegt auf dem richtigen Kontinent.'
+  and: 'und'
+  both_belong_to: 'gehören beide zu'
+  continent_of_your_guess: 'Der Kontinent deines Tipps'
+  belongs_to: 'gehört zu'
+  was_incorrect: 'war inkorrekt!'
+  summary_line_p1: 'Hast du richtig getippt? Was denkst du? Und was bedeutet es, falls du falsch getippt hast?'
+  summary_line_p2: "Natürlich ist es schwierig genau die richtige Nationalität zu tippen;"
+  summary_line_p3: "Aber da es nur wenige Kontinente gibt, sind die Chancen recht hoch, dass du zumindest den korrekten Kontinent erraten hast."
+  summary_line_p4: "Wie du dir wahrscheinlich schon gedacht hast, habe ich auch alle anderen Personen gebeten, für mich eine Nationalität zu tippen."
+  summary_line_p5: "Wie viele lagen richtig? Was denkst du?"
+  summary_line_p6: "Schau es dir selbst an:"
+  summary_line_p7: 'Überrascht?'

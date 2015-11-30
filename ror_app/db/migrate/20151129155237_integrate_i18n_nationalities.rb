@@ -1,6 +1,6 @@
 class IntegrateI18nNationalities < ActiveRecord::Migration
-  def change
-  	i18n_nationalities = {
+
+	@@i18n_nationalities = {
 	  'Afghan' => 'nat_Afghan_name',
 	  'Albanian' => 'nat_Albanian_name',
 	  'Algerian' => 'nat_Algerian_name',
@@ -194,10 +194,19 @@ class IntegrateI18nNationalities < ActiveRecord::Migration
 	  'Yemenite' => 'nat_Yemenite_name',
 	  'Zambian' => 'nat_Zambian_name',
 	  'Zimbabwean' => 'nat_Zimbabwean_name'}
-
-  	i18n_nationalities.each do |nat_name, new_name|
+  
+  def up
+  	@@i18n_nationalities.each do |nat_name, new_name|
 	  	n = Nationality.find_by_name(nat_name)
 	  	n.name = new_name
+	  	n.save()
+  	end
+  end
+
+  def down
+  	@@i18n_nationalities.each do |nat_name, new_name|
+	  	n = Nationality.find_by_name(new_name)
+	  	n.name = nat_name
 	  	n.save()
   	end
   end

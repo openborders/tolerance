@@ -20,16 +20,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  situation_0_title: "The president of your country shoots civilians who they think are a threat to their power."
+  situation_0_title: "The government of your country shoots on civilians who they think are a threat to their power."
   situation_1_title: "A neighboring country decides to invade part of your country to improve their strategic position and/or access to fossile ressources."
   situation_2_title: "A member of your family was captured forcefully by the police and taken into custody for a crime he/she didn't commit."
   situation_3_title: "A member of your family was captured forcefully by forces of the government and taken into custody for critical speech about them or the government."
-  situation_4_title: "A new government rule prohibits drinking alcohol or smoking and is controlled strictly by armed forces. If civilians are caught drinking or smoking on the streets, they will be sent to jail. Unfortunately, you are (somewhat) addicted to alcohol and/or tabaco."
+  situation_4_title: "A new government law prohibits drinking alcohol or smoking and is controlled strictly by armed forces. If civilians are caught drinking or smoking on the streets, they will be sent to jail. Unfortunately, you are (somewhat) addicted to alcohol and/or tabaco."
   situation_5_title: "The political and economical situation in your country is getting more instable every day. Civilians are put into jail without trial. Protests on the streets are struck down bloodily. The situation is likely to escalate soon. Your country has one neighbor country and is surrounded by water on the remaining borders. The situation in the neighboring country is even worse. You decide to leave your country. People are not officially allowed to leave the country."
   situation_6_title: "A bomb detonated in your neighborhood, three houses away. It was the fifth detonation close by within 2 months. A rebel group has claimed responsibility for the recent attack. One of your friends died, as he lived in a house close to the detonation."
   situation_7_title: "Your partner has a different religion than you. It has just been forbidden by the government. Practitioners of that  religion are being hanged publicly and their whole family is under general suspicion of collaboration."
   situation_8_title: "You work as a police officer in your country and are forced by the government to question people through torture (waterboarding, sleep deprivation, abuse, ...) and you know that these people are innocent. If you don't follow the orders, you will be tortured instead."
-  situation_9_title: "You, your partner and your two kids have to flee the country because you are wanted by your government for selling alcohol. You have enough money to pay for two seets in a boat."
+  situation_9_title: "You, your partner and your two kids have to flee the country because you are wanted by your government for selling alcohol. You have enough money to pay for two seats in a boat."
   situation_10_title: "You hide some friends of your family in your basement which believe in a religion prohibited by your government. Your neighbour knows about it. After a few weeks, you are questioned by the police and they threaten you with years in jail, if you should hide some of these pursued people."
   situation_11_title: "You are a scientist at a national University. The government tries to build more atomic weapons. You're a nuclear scientist and are approached to assist them."
   situation_12_title: "Your son was imprisoned by the police and taken into custody for critical speech about the government. You visit him in jail. He was imprisoned because he publicly said that the government should not ban public gatherings of groups of any size."
@@ -64,8 +64,8 @@ en:
   answer_8_text: "You stay in your country. You bury your friend."
   answer_41_text: "You leave the country with your family."
   answer_42_text: "You stay in the country and publicy protest against the rebel group."
-  answer_9_text: "You help her pursuing her religion in secret and risk being hanged as well."
-  answer_10_text: "You tell the government about her to save yourself."
+  answer_9_text: "You help her/him pursuing the religion in secret and risk being hanged as well."
+  answer_10_text: "You tell the government about her/him to save yourself."
   answer_33_text: "You leave the country."
   answer_51_text: "You don't do anything and hope that no one will find out. Your family has to live in constant fear that your partner's believes will be discovered."
   answer_52_text: "You don't tell anyone and hope that no one will find out. You publicly criticize the government and risk being imprisoned or hanged."
@@ -504,3 +504,38 @@ en:
   contact_us: 'Contact us'
   contact_via_mail: 'You can contact us via mail:'
   leave_msg_com_github: 'or leave a message / comment on <a href="https://github.com/openborders/tolerance">GitHub</a>.'
+  getting_to_know_you: 'Getting to know you'
+  own_nat_p1: 'As I said, in the end after you told me how you act in these ten critical situations a surprise is waiting for you! :-)'
+  own_nat_p2: 'But for that to work, I need to know your nationality.'
+  own_nat_p3: 'This is the only information I need of you. So please be honest!'
+  own_nat_p4: 'If you are not sure which nationality to pick, pick the one you identify most with or where you grew up.'
+  what_is_your_nat: 'What is your nationality?'
+  question: 'Question'
+  next_step: "Next step"
+  thank_you: 'Thank you for taking the survey!'
+  guess_nationality_long: 'What do you think is the nationality of the person that gave the following answers?'
+  guess_nationality: 'What nationality do you think the person has?'
+  the_surprise: 'The surprise'
+  guess_nationality_line_p1: 'Interesting answers... thanks!'
+  guess_nationality_line_p2: 'Now, the surprise. :-)'
+  guess_nationality_line_p3: 'Just as you answered ten questions, other people have done the same.'
+  guess_nationality_line_p4: "I'd like to know the following: Can you guess the nationality of the person that answered the questions (or at least the right continent), only given that persons answers to the questions?"
+  finish: "Finish"
+
+  you_guessed_correctly: 'You guessed correctly!'
+  you_guessed_incorrectly: 'Your guess was incorrect'
+  persons_true_nationality: "The person's true nationality was"
+  which_belongs_to_cont: 'which belongs to'
+  you_guessed_nat_on_correct_continent: 'You guessed a nationality on the correct continent'
+  and: 'and'
+  both_belong_to: 'both belong to'
+  continent_of_your_guess: 'The continent of your guess'
+  belongs_to: 'belongs to'
+  was_incorrect: 'was incorrect!'
+  summary_line_p1: 'Did you guess correctly? What do you think? And what does it mean if you guessed incorrectly?'
+  summary_line_p2: "Of course it's difficult to guess exactly the right nationality;"
+  summary_line_p3: "But since earth only has a few continents chances that you guess the correct one are fair."
+  summary_line_p4: "As you probably guessed already. I also asked all the other people to guess another persons nationality."
+  summary_line_p5: "How many do guess correctly? What do you think?"
+  summary_line_p6: "Well, look for yourself:"
+  summary_line_p7: 'Surprised?'

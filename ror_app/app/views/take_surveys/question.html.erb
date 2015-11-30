@@ -1,9 +1,9 @@
 <% content_for :title do %>
-<%= I18n.t @survey.title %>
+<%= @survey.title %>
 <% end %>
 
 <% content_for :subtitle do %>
-Question <%= @questionNumber %>
+<%= raw t :question %> <%= @questionNumber %>
 <% end %>
 
 <% sit = @situation %>
@@ -28,5 +28,5 @@ Question <%= @questionNumber %>
     </div>
   </div>
 
-  <%= submit_tag("Next step") %>
+  <%= submit_tag(I18n.translate(:next_step)) %>
 <% end %>

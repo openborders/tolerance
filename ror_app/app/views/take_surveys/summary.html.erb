@@ -27,7 +27,7 @@ $(function () {
             }
         },
         series: [{
-            name: "Percentage",
+            name: "<%= t :percentage %>",
             colorByPoint: true,
             data: [{
                 name: "<%= t('correctly') %>",
@@ -67,7 +67,7 @@ $(function () {
             }
         },
         series: [{
-            name: "Percentage",
+            name: "<%= t :percentage %>",
             colorByPoint: true,
             data: [{
                 name: "<%= t('correctly') %>",
@@ -86,41 +86,41 @@ $(function () {
 
 
 <p class="lead">
-<mark>Line:</mark> Did you guess correctly? What do you think? And what does it mean if you guessed incorrectly?
+<mark>Line:</mark> <%= t :summary_line_p1 %>
 <br>
-<mark>Line:</mark> Of course it's difficult to guess exactly the right nationality;
+<mark>Line:</mark> <%= t :summary_line_p2 %>
 <br>
-<mark>Line:</mark> But since earth only has a few continents chances that you guess the correct one are fair.
+<mark>Line:</mark> <%= t :summary_line_p3 %>
 <br>
 </p>
 
 <% if @you_guessed_correctly %>
 <div class="alert alert-success" role="alert">
-You guessed correctly!
+<%= t :you_guessed_correctly %>
 </div>
 <% else %>
 <div class="alert alert-danger" role="alert">
-Your guess (<%= Nationality.find(@your_guess).name %>) was incorrect! The person's true nationality was <b><%= Nationality.find(@true_nationality).name %></b>.
+<%= t :you_guessed_incorrectly %> (<%= Nationality.find(@your_guess).translated_name %>)! <%= t :persons_true_nationality %> <b><%= Nationality.find(@true_nationality).translated_name %></b>.
 </div>
 <% end %>
 
 <% if @you_guessed_correctly_continent %>
 <div class="alert alert-success" role="alert">
-You guessed a nationality on the correct continent (<%= Nationality.find(@your_guess).name %> and <b><%= Nationality.find(@true_nationality).name %></b> both belong to <%= Nationality.find(@your_guess).continent.name %>)!
+<%= t :you_guessed_nat_on_correct_continent %> (<%= Nationality.find(@your_guess).translated_name %> <%= t :and %> <b><%= Nationality.find(@true_nationality).translated_name %></b> <%= t :both_belong_to %> <%= Nationality.find(@your_guess).continent.translated_name %>)!
 </div>
 <% else %>
 <div class="alert alert-danger" role="alert">
-The continent of your guess (<%= Nationality.find(@your_guess).name %> belongs to <%= Nationality.find(@your_guess).continent.name %>) was incorrect! The person's true nationality was <%= Nationality.find(@true_nationality).name %>, which belongs to <b><%= Nationality.find(@true_nationality).continent.name %></b>.
+<%= t :continent_of_your_guess %> (<%= Nationality.find(@your_guess).name %> <%= t :belongs_to %> <%= Nationality.find(@your_guess).continent.translated_name %>) <%= t :was_incorrect %> <%= t :persons_true_nationality %> <%= Nationality.find(@true_nationality).translated_name %>, <%= t :which_belongs_to_cont %> <b><%= Nationality.find(@true_nationality).continent.translated_name %></b>.
 </div>
 <% end %>
 
 
 <p class="lead">
-<mark>Line:</mark> As you probably guessed already. I also asked all the other people to guess another persons nationality.
+<mark>Line:</mark> <%= t :summary_line_p4 %>
 <br>
-<mark>Line:</mark> How many do guess correctly? What do you think?
+<mark>Line:</mark> <%= t :summary_line_p5 %>
 <br>
-<mark>Line:</mark> Well, look for yourself:
+<mark>Line:</mark> <%= t :summary_line_p6 %>
 <br>
 </p>
 
@@ -134,6 +134,6 @@ The continent of your guess (<%= Nationality.find(@your_guess).name %> belongs t
 </div>
 
 <p class="lead">
-<mark>Line:</mark> Surprised?
+<mark>Line:</mark> <%= t :summary_line_p7 %>
 <br>
 </p>
