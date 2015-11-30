@@ -247,9 +247,9 @@
 <span id="typed_container_1"></span>
 </div>
 <div style="text-align:right;">
-  <%= raw t('line_intro_skip_to_survey') %>
+  <%= raw t('line_intro_skip_to_survey') %> <a href="<%= url_for :survey_id => 0, :controller => :take_surveys, :action => :index %>"><%= raw t('line_intro_skip_to_survey_first_question') %></a>.
 </div>
 <div style="text-align:right;">
-  <%= raw t('line_intro_skip_to_summary') %>
+  <%= raw t('line_intro_skip_to_summary') %> <a href="<%= url_for :survey_id => 0, :action => :summary %>"><%= raw t('line_intro_skip_to_summary_1') %></a> <%= raw t('line_intro_skip_to_summary_2') %>.
 </div>.
 </div>

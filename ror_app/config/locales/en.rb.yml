@@ -478,8 +478,11 @@ en:
   line_p109: "Ready?"
   line_p109_1: "Good!"
   line_p109_2: 'Let me ask you the <a href="/surveys/0/take_surveys">first question</a> then...'
-  line_intro_skip_to_survey: 'I know what I''m doing! Take me directly to the <a href="/surveys/0/take_surveys">first question</a>.'
-  line_intro_skip_to_summary: 'I have already answered the questions! I want to see the <a href="/surveys/0/summary">statistics</a> again.'
+  line_intro_skip_to_survey: 'I know what I''m doing! Take me directly to the'
+  line_intro_skip_to_survey_first_question: 'first question'
+  line_intro_skip_to_summary: 'I have already answered the questions! I want to see the'
+  line_intro_skip_to_summary_1: 'statistics'
+  line_intro_skip_to_summary_2: 'again'
   survey_statistics: 'The Survey Statistics'
   correctly_guessed_nationalities: 'Correctly guessed nationalities'
   correctly_guessed_continents: 'Correctly guessed continents'

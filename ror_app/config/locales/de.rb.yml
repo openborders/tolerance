@@ -110,8 +110,11 @@ de:
   to_the_surveys: 'Umfragen'
   our_surveys: 'Unsere Umfragen'
   take_survey_hint: 'Erfahre mehr über eine Umfrage, indem du darauf klickst. Zur Zeit gibt es "nur" eine Umfrage. :-)'
-  line_intro_skip_to_survey: 'Ich weiß was ich tue! Direkt weiter zur ersten Frage <a href="/surveys/0/take_surveys">bitte</a>.'
-  line_intro_skip_to_summary: 'Ich hab die Fragen bereits beantwortet! Ich möchte nochmal die <a href="/surveys/0/summary">Statistiken</a> sehen.'
+  line_intro_skip_to_survey: 'Ich weiß was ich tue! Direkt weiter zur ersten Frage'
+  line_intro_skip_to_survey_first_question: 'bitte'
+  line_intro_skip_to_summary: 'Ich hab die Fragen bereits beantwortet! Ich möchte nochmal die'
+  line_intro_skip_to_summary_1: 'Statistiken'
+  line_intro_skip_to_summary_2: 'sehen'
 
 
 
