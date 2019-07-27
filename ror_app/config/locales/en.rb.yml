@@ -316,24 +316,24 @@ en:
   take_survey_hint: 'Take a survey by clicking on it. Currently, we "only" have created one survey. :-)'
   line_p1: 'Finally!'
   line_p1_1: 'Another human soul around here!'
-  line_p2: "There's really not much going on here... "
+  line_p2: "There's really not much going on here ..."
   line_p3: 'Nice to meet you!'
   line_p4: "I'm <b>Line</b>."
   line_p4_1: "I live here. Since forever."
   line_p4_2: "And I rarely have visitors."
   line_p5: "Hu?"
   line_p5_1: "Who I am?"
-  line_p6: "Hope you are not expecting great stories about personality ... "
+  line_p6: "Hope you are not expecting great stories about personality ..."
   line_p6_1: "There's not much to tell about me. Except maybe"
   line_p6_2: "."
   line_p6_3: "."
   line_p6_4: "."
   line_p6_5: "that I'm a <b>horrible</b> liar!"
   line_p7: "Why telling you?"
-  line_p8: "Naa, I really don't wanna talk too private here..."
-  line_p8_1: "You never know who's listening..."
-  line_p9: "On the other hand .."
-  line_p9_1: "feels like half a lifetime since I last talked to anyone ... "
+  line_p8: "Naa, I really don't wanna talk too private here ..."
+  line_p8_1: "You never know who's listening ..."
+  line_p9: "On the other hand ..."
+  line_p9_1: "feels like half a lifetime since I last talked to anyone ..."
   line_p10: "You trustworthy?"
   line_p10_1: "Ah, what the heck! Now you are here"
   line_p10_2: ", so why not!"
@@ -406,7 +406,7 @@ en:
   line_p59_2: "And the stories of their grandparents."
   line_p60: "So of course it's difficult to realize how those people really feel."
   line_p61: "But then."
-  line_p61_1: "Just try it for a short moment. "
+  line_p61_1: "Just try it for a short moment."
   line_p62: "Try to imagine, how it must feel like when you are surrounded by war."
   line_p63: "People dying around you."
   line_p63_1: "Every day."
@@ -429,7 +429,7 @@ en:
   line_p75: "Because you keep your emotional distance to it."
   line_p76: "Awareness, how it must feel to have your own house bombed that you have payed off all your life since you were 23 years old."
   line_p77: "In which you lived with your wife for 16 years."
-  line_p78: "In which you raised your two kids which are now going to grammar school. "
+  line_p78: "In which you raised your two kids which are now going to grammar school."
   line_p79: "How it must feel to have your religion forbidden by your rightfully elected government in which you believed strongly since you were a teenager and your grandpa told you that grandma is sitting up there and waiting for you."
   line_p80: "Awareness, how it must feel to loose first your wife and then your younger son."
   line_p80_1: "And that it is everyday life."
@@ -441,9 +441,9 @@ en:
   line_p82_3: "in countries with other languages."
   line_p83: "Not knowing where home is."
   line_p84: "Arriving in a rich and stable country that gives you the hope to get the chance to build up a new life."
-  line_p85: "Realizing that the people you hoped would help you, don't want you in their country. "
+  line_p85: "Realizing that the people you hoped would help you, don't want you in their country."
   line_p86: "Don't want to share with you."
-  line_p87: "Spit on you. "
+  line_p87: "Spit on you."
   line_p88: "Demonstrate against you on the streets."
   line_p88_1: "Calling you a pig,"
   line_p88_2: "parasite"
@@ -472,13 +472,13 @@ en:
   line_p103: "Don't think about it with your head only. <i>Feel</i>."
   line_p104: "That's all."
   line_p105: "And you will see, that I am right."
-  line_p106: "And in the end, there's a little surprise for you. "
+  line_p106: "And in the end, there's a little surprise for you."
   line_p107: "You will see that you are closer to the Syrian people than you thought."
   line_p108: "That you are very similar to them in many aspects."
   line_p109: "Ready?"
   line_p109_1: "Good!"
-  line_p109_2: 'Let me ask you the <a href="/surveys/0/take_surveys">first question</a> then...'
-  line_intro_skip_to_survey: 'I know what I''m doing! Take me directly to the'
+  line_p109_2: 'Let me ask you the <a href="/surveys/0/take_surveys">first question</a> then ...'
+  line_intro_skip_to_survey: "I know what I'm doing! Take me directly to the"
   line_intro_skip_to_survey_first_question: 'first question'
   line_intro_skip_to_summary: 'I have already answered the questions! I want to see the'
   line_intro_skip_to_summary_1: 'statistics'
@@ -519,7 +519,7 @@ en:
   guess_nationality_long: 'What do you think is the nationality of the person that gave the following answers?'
   guess_nationality: 'What nationality do you think the person has?'
   the_surprise: 'The surprise'
-  guess_nationality_line_p1: 'Interesting answers... thanks!'
+  guess_nationality_line_p1: 'Interesting answers ... thanks!'
   guess_nationality_line_p2: 'Now, the surprise. :-)'
   guess_nationality_line_p3: 'Just as you answered ten questions, other people have done the same.'
   guess_nationality_line_p4: "I'd like to know the following: Can you guess the nationality of the person that answered the questions (or at least the right continent), only given that persons answers to the questions?"
