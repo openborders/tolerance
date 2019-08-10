@@ -140,9 +140,9 @@ de:
   contribute_writers_text: 'die sich neue Situationen, Fragen und Antworten ausdenken; die jetzige Form von <mark>tolerance</mark> haben wir selbst verfasst wobei wir uns dabei etwas von "<a href="http://www.stanleyparable.com/">The Stanley Parable</a>" haben inspirieren lassen (Davey Wreden & William Pugh); wir würden es gerne so beibehalten;'
   contribute_programmers_text: 'um die Website zu erweitern und zu verbessern;'
   you_can_find_tolerance_on_github: '<mark>tolerance</mark> gibt es auf <a href="https://github.com/openborders/tolerance">GitHub</a>'
-  contact_us: 'Schreib'' uns'
-  contact_via_mail: 'Du kannst uns per e-Mail erreichen:'
-  leave_msg_com_github: 'oder schreib uns eine Nachricht / einen Kommentar aufs <a href="https://github.com/openborders/tolerance">GitHub</a>.'
+  contact_us: "Schreib' uns"
+  contact_via_mail: 'Du kannst uns per E-Mail erreichen:'
+  leave_msg_com_github: 'oder schreib uns eine Nachricht / einen Kommentar auf <a href="https://github.com/openborders/tolerance">GitHub</a>.'
 
 
   line_p1: 'Endlich!'
@@ -163,14 +163,14 @@ de:
   line_p7: "Du willst mehr wissen?"
   line_p8: "Nee, ich möchte hier ungern zu privat sprechen ..."
   line_p8_1: "Du weißt nie, wer zuhört ..."
-  line_p9: "Auf der anderen Seite .."
-  line_p9_1: "es fühlt sich an als hätte ich seit einer halben Ewigkeit mit niemandem mehr gesprochen ... "
+  line_p9: "Auf der anderen Seite ..."
+  line_p9_1: "es fühlt sich an als hätte ich seit einer halben Ewigkeit mit niemandem mehr gesprochen ..."
   line_p10: "Hm, aber bist du vertrauenswürdig?"
   line_p10_1: "Ach, egal! Jetzt bist du hier"
   line_p10_2: ", also warum nicht!"
   line_p11: "Also, ich bin richtig schlecht im Lügen."
   line_p11_1: "Ich bekomme Augenzucken und meine Stimme fängt an zu zittern."
-  line_p11_2: "Ich krieg's einfach nicht in den Griff... Und leider"
+  line_p11_2: "Ich krieg's einfach nicht in den Griff ... Und leider"
   line_p11_3: ", bin ich kein Opernsänger."
   line_p12: "Aber ehrlich gesagt, es ist gar nicht so schlimm!"
   line_p13: "Im Prinzip bin ich sogar recht stolz darauf. Meine Ehrlichkeit meine ich."
@@ -192,7 +192,7 @@ de:
   line_p25: "Machst du mit?"
   line_p25_1: "Schön!"
   line_p25_2: "Bereit?"
-  line_p25_3: "Git."
+  line_p25_3: "Gut."
   line_p25_4: "Los geht's ..."
   line_p26: "Ich glaube"
   line_p26_1: "du bist eine ziemlich ich-bewusste und reflektierte Person."
@@ -204,7 +204,7 @@ de:
   line_p32: "Oder im Irak."
   line_p33: "Der so genannte Islamische Staat foltert Menschen."
   line_p34: "Schlägt ihnen den Kopf ab und hängt sie öffentlich an den Galgen."
-  line_p35: 'Weil sie nicht in den "richtigen" Gott glauben.'
+  line_p35: 'Weil sie nicht an den "richtigen" Gott glauben.'
   line_p36: "Von dem wir <i>nicht einmal wissen</i> ob er existiert!"
   line_p37: "Es ist einfach schrecklich!"
   line_p38: "Aber."
@@ -236,8 +236,8 @@ de:
   line_p59_1: "Und Spielen."
   line_p59_2: "Und den Geschichten ihrer Großeltern."
   line_p60: "Also natürlich ist es schwer nachzuvollziehen, wie diese Menschen sich fühlen."
-  line_p61: "Aber dann..."
-  line_p61_1: "Versuch es nur mal für einen kurzen Moment. "
+  line_p61: "Aber dann ..."
+  line_p61_1: "Versuch es nur mal für einen kurzen Moment."
   line_p62: "Versuche dir vorzustellen, wie es sich anfühlen muss umgeben zu sein von Krieg."
   line_p63: "Menschen sterben überall um dich herum."
   line_p63_1: "Jeden Tag."
@@ -260,7 +260,7 @@ de:
   line_p75: "Und dich auf emotionaler Distanz hältst."
   line_p76: "Bewusstsein, wie es sich anfühlt, dass dein Haus in sich zusammenstürzt dass du abbezahlt hast seit du 23 Jahre alt warst."
   line_p77: "In dem du mit deiner Frau 16 Jahre lang gelebt hast."
-  line_p78: "In dem du deine zwei Kinder aufgezogen hast, welche bis zuletzt auf's Gymnasium gingen. "
+  line_p78: "In dem du deine zwei Kinder aufgezogen hast, welche bis zuletzt auf's Gymnasium gingen."
   line_p79: "Wie es sich anfühlen muss, dass deine Religion verboten wird von deiner demokratisch gewählten Regierung. Deine Religion an die du geglaubt hast seit du ein Teenager warst und dein Großvater dir erzählt hat, dass Großmutter da oben auf euch wartet."
   line_p80: "Bewusstsein, wie es sich anfühlen muss, erst deine Frau und dann deinen jüngeren Sohn zu verlieren."
   line_p80_1: "Und dass dies Alltag ist."
@@ -272,9 +272,9 @@ de:
   line_p82_3: "in Ländern in denen andere Sprachen gesprochen werden."
   line_p83: "Nicht zu wissen, wo 'Zuhause' ist."
   line_p84: "In einem reichen und stabilen Land anzukommen, welches dir Hoffnung gibt auf eine Chance, dein Leben wieder aufzubauen."
-  line_p85: "Zu realisieren, dass die Menschen von denen du erhofftest, dass sie dir helfen würden, dich nicht in ihrem Land möchten. "
+  line_p85: "Zu realisieren, dass die Menschen von denen du erhofftest, dass sie dir helfen würden, dich nicht in ihrem Land möchten."
   line_p86: "Dass sie nicht mit dir teilen möchten."
-  line_p87: "Dass sie auf dich spucken. "
+  line_p87: "Dass sie auf dich spucken."
   line_p88: "In den Straßen gegen dich demonstrieren."
   line_p88_1: "Dich ein Schwein schimpfen,"
   line_p88_2: "Schmarotzer"
@@ -303,12 +303,12 @@ de:
   line_p103: "Denke nicht nur mit deinem Kopf. <i>Fühle</i>."
   line_p104: "Das ist alles."
   line_p105: "Und du wirst sehen, dass ich Recht habe."
-  line_p106: "Und am Ende wartet eine kleine Überraschung auf dich. "
+  line_p106: "Und am Ende wartet eine kleine Überraschung auf dich."
   line_p107: "Du wirst sehen, dass du den Syrern ähnlicher bist, als du dachtest."
   line_p108: "Dass du ihnen in vielen Aspekten sehr, sehr ähnlich bist."
   line_p109: "Fertig?"
   line_p109_1: "Gut!"
-  line_p109_2: 'Lass mich dir die <a href="/surveys/0/take_surveys">erste Frage</a> stellen...'
+  line_p109_2: 'Lass mich dir die <a href="/surveys/0/take_surveys">erste Frage</a> stellen ...'
 
   cont_0_name: 'Südamerika'
   cont_1_name: 'Ozeanien'
@@ -523,7 +523,7 @@ de:
   guess_nationality_long: 'Was denkst du welche Nationalität die Person hat, die die folgenden Antworten gegeben hat?'
   guess_nationality: 'Was denkst du welche Nationalität diese Person hat?'
   the_surprise: 'Die Überraschung'
-  guess_nationality_line_p1: 'Interessante Antworten... danke!'
+  guess_nationality_line_p1: 'Interessante Antworten ... danke!'
   guess_nationality_line_p2: 'Jetzt zur Überraschung. :-)'
   guess_nationality_line_p3: 'Genau wie du, haben andere auch zehn Fragen beantwortet.'
   guess_nationality_line_p4: "Und ich möchte gerne wissen, ob ihr die Nationalität (oder zumindest den richtigen Kontinent) einer anderen Person richtig erraten könnt, anhand ihrer gegebenen Antworten."
@@ -531,7 +531,7 @@ de:
 
   you_guessed_correctly: 'Du hast richtig getippt!'
   you_guessed_incorrectly: 'Dein Tipp war falsch'
-  persons_true_nationality: "Die Nationalität der Person war "
+  persons_true_nationality: "Die Nationalität der Person war"
   which_belongs_to_cont: 'gehörend zu'
   you_guessed_nat_on_correct_continent: 'Dein Tipp liegt auf dem richtigen Kontinent.'
   and: 'und'

@@ -11,8 +11,8 @@ will not be able to guess the nationality right. The message is:
 
 We wrote some articles about this project in german [here][y] and [here][c].
 
-And it's online available under <http://tolerance.cwiwie.de> and
-<http://tolerance.yhaupenthal.org>.
+And it's online available under <https://tolerance.cwiwie.org> and
+<https://ob.uxg.ch>.
 
 ## TODO
 
